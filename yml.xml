@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2025-08-30 12:00">
+  <shop>
+    <name>LaRou</name>
+    <company>Онлайн-школа французского языка LaRou</company>
+    <url>https://larou-francaise.com/</url>
+
+    <currencies>
+      <currency id="RUB" rate="1"/>
+    </currencies>
+
+    <categories>
+      <category id="1">Индивидуальные занятия</category>
+      <category id="2">Подготовка к экзаменам</category>
+      <category id="3">Деловой французский (для работы)</category>
+      <category id="4">Французский для переезда</category>
+      <category id="5">Парные занятия</category>
+      <category id="6">Для детей — 30 минут</category>
+      <category id="7">Для детей — 45 минут</category>
+    </categories>
+
+    <offers>
+
+      <!-- Индивидуальные -->
+      <offer id="ind-4" available="true">
+        <url>https://larou-francaise.com/individlesson</url>
+        <price>8000</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <name>Индивидуальные занятия — 4 урока</name>
+        <description>Онлайн-уроки 1-на-1. Гибкое расписание. Поддержка RU/FR.</description>
+      </offer>
+      <offer id="ind-8" available="true">
+        <url>https://larou-francaise.com/individlesson</url>
+        <price>15000</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <name>Индивидуальные занятия — 8 уроков</name>
+        <description>Онлайн-уроки 1-на-1. Экономия на цене за занятие.</description>
+      </offer>
+      <offer id="ind-16" available="true">
+        <url>https://larou-francaise.com/individlesson</url>
+        <price>28800</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <name>Индивидуальные занятия — 16 уроков</name>
+        <description>Интенсивный прогресс. Индивидуальная программа.</description>
+      </offer>
+      <offer id="ind-trial" available="true">
+        <url>https://larou-francaise.com/individlesson</url>
+        <price>199</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <name>Пробный урок (индивидуальные)</name>
+        <description>Пробный урок для новых учеников.</description>
+      </offer>
+
+      <!-- Экзамены -->
+      <offer id="exam-4" available="true">
+        <url>https://larou-francaise.com/exams</url>
+        <price>8000</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>2</categoryId>
+        <name>Подготовка к экзаменам — 4 урока</name>
+        <description>DELF/DALF, TCF, ЕГЭ. Индивидуальная подготовка.</description>
+      </offer>
+      <offer id="exam-8" available="true">
+        <url>https://larou-francaise.com/exams</url>
+        <price>15000</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>2</categoryId>
+        <name>Подготовка к экзаменам — 8 уроков</name>
+      </offer>
+      <offer id="exam-16" available="true">
+        <url>https://larou-francaise.com/exams</url>
+        <price>28800</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>2</categoryId>
+        <name>Подготовка к экзаменам — 16 уроков</name>
+      </offer>
+      <offer id="exam-trial" available="true">
+        <url>https://larou-francaise.com/exams</url>
+        <price>199</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>2</categoryId>
+        <name>Пробный урок (подготовка к экзаменам)</name>
+      </offer>
+
+      <!-- Для работы -->
+      <offer id="job-4" available="true">
+        <url>https://larou-francaise.com/job</url>
+        <price>8000</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>3</categoryId>
+        <name>Деловой французский — 4 урока</name>
+        <description>Коммуникация, собеседования, переписка, переговоры.</description>
+      </offer>
+      <offer id="job-8" available="true">
+        <url>https://larou-francaise.com/job</url>
+        <price>15000</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>3</categoryId>
+        <name>Деловой французский — 8 уроков</name>
+      </offer>
+      <offer id="job-16" available="true">
+        <url>https://larou-francaise.com/job</url>
+        <price>28800</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>3</categoryId>
+        <name>Деловой французский — 16 уроков</name>
+      </offer>
+      <offer id="job-trial" available="true">
+        <url>https://larou-francaise.com/job</url>
+        <price>199</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>3</categoryId>
+        <name>Пробный урок (для работы)</name>
+      </offer>
+
+      <!-- Для переезда -->
+      <offer id="move-4" available="true">
+        <url>https://larou-francaise.com/removal</url>
+        <price>8000</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>4</categoryId>
+        <name>Французский для переезда — 4 урока</name>
+        <description>Быт, документы, медицина, повседневное общение.</description>
+      </offer>
+      <offer id="move-8" available="true">
+        <url>https://larou-francaise.com/removal</url>
+        <price>15000</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>4</categoryId>
+        <name>Французский для переезда — 8 уроков</name>
+      </offer>
+      <offer id="move-16" available="true">
+        <url>https://larou-francaise.com/removal</url>
+        <price>28800</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>4</categoryId>
+        <name>Французский для переезда — 16 уроков</name>
+      </offer>
+      <offer id="move-trial" available="true">
+        <url>https://larou-francaise.com/removal</url>
+        <price>199</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>4</categoryId>
+        <name>Пробный урок (для переезда)</name>
+      </offer>
+
+      <!-- Парные занятия (по уровням, 8 уроков) -->
+      <offer id="pair-a1" available="true">
+        <url>https://larou-francaise.com/grouplessons</url>
+        <price>10300</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>5</categoryId>
+        <name>Парные занятия — с 0 до уверенного A1 (8 уроков)</name>
+        <description>Два ученика в группе. Разговорная практика.</description>
+      </offer>
+      <offer id="pair-a2" available="true">
+        <url>https://larou-francaise.com/grouplessons</url>
+        <price>10300</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>5</categoryId>
+        <name>Парные занятия — с A1 до уверенного A2 (8 уроков)</name>
+      </offer>
+      <offer id="pair-b1" available="true">
+        <url>https://larou-francaise.com/grouplessons</url>
+        <price>10300</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>5</categoryId>
+        <name>Парные занятия — с A2 до уверенного B1 (8 уроков)</name>
+      </offer>
+      <offer id="pair-b2" available="true">
+        <url>https://larou-francaise.com/grouplessons</url>
+        <price>10300</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>5</categoryId>
+        <name>Парные занятия — с B1 до уверенного B2 (8 уроков)</name>
+      </offer>
+
+      <!-- Детские — 30 минут -->
+      <offer id="kids30-4" available="true">
+        <url>https://larou-francaise.com/forkids</url>
+        <price>4400</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>6</categoryId>
+        <name>Дети (30 минут) — 4 урока</name>
+      </offer>
+      <offer id="kids30-8" available="true">
+        <url>https://larou-francaise.com/forkids</url>
+        <price>8400</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>6</categoryId>
+        <name>Дети (30 минут) — 8 уроков</name>
+      </offer>
+      <offer id="kids30-16" available="true">
+        <url>https://larou-francaise.com/forkids</url>
+        <price>16600</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>6</categoryId>
+        <name>Дети (30 минут) — 16 уроков</name>
+      </offer>
+
+      <!-- Детские — 45 минут -->
+      <offer id="kids45-4" available="true">
+        <url>https://larou-francaise.com/forkids</url>
+        <price>6500</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>7</categoryId>
+        <name>Дети (45 минут) — 4 урока</name>
+      </offer>
+      <offer id="kids45-8" available="true">
+        <url>https://larou-francaise.com/forkids</url>
+        <price>11200</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>7</categoryId>
+        <name>Дети (45 минут) — 8 уроков</name>
+      </offer>
+      <offer id="kids45-16" available="true">
+        <url>https://larou-francaise.com/forkids</url>
+        <price>21700</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>7</categoryId>
+        <name>Дети (45 минут) — 16 уроков</name>
+      </offer>
+
+    </offers>
+  </shop>
+</yml_catalog>
