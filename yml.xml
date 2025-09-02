@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2025-08-30 12:00">
+<yml_catalog date="2025-09-02 12:00">
   <shop>
     <name>LaRou</name>
     <company>Онлайн-школа французского языка LaRou</company>
     <url>https://larou-francaise.com/</url>
+    <email>larou.francaise@gmail.com</email>
+    <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
+    <description>Онлайн-школа французского для детей и взрослых: индивидуальные, парные и корпоративные программы, подготовка к экзаменам.</description>
 
     <currencies>
       <currency id="RUR" rate="1"/>
@@ -11,284 +14,478 @@
 
     <offers>
 
-      <!-- Индивидуальные (урок 60 минут) -->
+      <!-- Индивидуальные (60 мин/урок) — categoryId 20003 -->
       <offer id="ind-4" available="true">
         <url>https://larou-francaise.com/individlesson</url>
         <price>8000</price>
         <currencyId>RUR</currencyId>
-        <name>Индивидуальные — 4 урока</name>
-        <description>Онлайн-уроки 1 на 1. Гибкое расписание. Поддержка RU/FR.</description>
-        <param name="план">Индивидуальные занятия</param>
-        <param name="продолжительность">4 урока × 60 минут</param>
+        <categoryId>20003</categoryId>
+        <name>Индивидуальные занятия — 4 урока</name>
+        <description>Онлайн-занятия 1 на 1 с преподавателем. Гибкое расписание.</description>
+        <param name="План" unit="курс">Индивидуальные занятия</param>
+        <param name="Продолжительность" unit="час">4</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Есть видеокурс">false</param>
+        <param name="Есть вебинар">false</param>
+        <param name="Есть домашние работы">true</param>
+        <param name="Сложность">Для новичков</param>
+        <param name="Тип обучения">Курс</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
+
       <offer id="ind-8" available="true">
         <url>https://larou-francaise.com/individlesson</url>
         <price>15000</price>
         <currencyId>RUR</currencyId>
-        <name>Индивидуальные — 8 уроков</name>
-        <description>Онлайн-уроки 1 на 1. Экономия на цене за занятие.</description>
-        <param name="план">Индивидуальные занятия</param>
-        <param name="продолжительность">8 уроков × 60 минут</param>
+        <categoryId>20003</categoryId>
+        <name>Индивидуальные занятия — 8 уроков</name>
+        <param name="План" unit="курс">Индивидуальные занятия</param>
+        <param name="Продолжительность" unit="час">8</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Есть видеокурс">false</param>
+        <param name="Есть вебинар">false</param>
+        <param name="Есть домашние работы">true</param>
+        <param name="Сложность">Для новичков</param>
+        <param name="Тип обучения">Курс</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
+
       <offer id="ind-16" available="true">
         <url>https://larou-francaise.com/individlesson</url>
         <price>28800</price>
         <currencyId>RUR</currencyId>
-        <name>Индивидуальные — 16 уроков</name>
-        <description>Интенсивный прогресс. Индивидуальная программа.</description>
-        <param name="план">Индивидуальные занятия</param>
-        <param name="продолжительность">16 уроков × 60 минут</param>
+        <categoryId>20003</categoryId>
+        <name>Индивидуальные занятия — 16 уроков</name>
+        <param name="План" unit="курс">Индивидуальные занятия</param>
+        <param name="Продолжительность" unit="час">16</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Есть видеокурс">false</param>
+        <param name="Есть вебинар">false</param>
+        <param name="Есть домашние работы">true</param>
+        <param name="Сложность">Для новичков</param>
+        <param name="Тип обучения">Курс</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
+
       <offer id="ind-trial" available="true">
         <url>https://larou-francaise.com/individlesson</url>
         <price>199</price>
         <currencyId>RUR</currencyId>
+        <categoryId>20003</categoryId>
         <name>Пробный урок (индивидуальные)</name>
-        <description>Пробный урок для новых учеников.</description>
-        <param name="план">Индивидуальные занятия</param>
-        <param name="продолжительность">1 урок × 30–60 минут</param>
+        <param name="План" unit="курс">Индивидуальные занятия</param>
+        <param name="Продолжительность" unit="час">1</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Есть видеокурс">false</param>
+        <param name="Есть вебинар">false</param>
+        <param name="Есть домашние работы">true</param>
+        <param name="Сложность">Для новичков</param>
+        <param name="Тип обучения">Курс</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
-      <!-- Подготовка к экзаменам (урок 60 минут) -->
+      <!-- Подготовка к экзаменам — categoryId 10020 -->
       <offer id="exam-4" available="true">
         <url>https://larou-francaise.com/exams</url>
         <price>8000</price>
         <currencyId>RUR</currencyId>
-        <name>Экзамены — 4 урока</name>
+        <categoryId>10020</categoryId>
+        <name>Подготовка к экзаменам — 4 урока</name>
         <description>DELF/DALF, TCF, ЕГЭ. Индивидуальная подготовка.</description>
-        <param name="план">Подготовка к экзаменам</param>
-        <param name="продолжительность">4 урока × 60 минут</param>
+        <param name="План" unit="курс">Подготовка к экзаменам</param>
+        <param name="Продолжительность" unit="час">4</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Есть видеокурс">false</param>
+        <param name="Есть вебинар">false</param>
+        <param name="Есть домашние работы">true</param>
+        <param name="Сложность">Для новичков</param>
+        <param name="Тип обучения">Курс</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
+
       <offer id="exam-8" available="true">
         <url>https://larou-francaise.com/exams</url>
         <price>15000</price>
         <currencyId>RUR</currencyId>
-        <name>Экзамены — 8 уроков</name>
-        <param name="план">Подготовка к экзаменам</param>
-        <param name="продолжительность">8 уроков × 60 минут</param>
+        <categoryId>10020</categoryId>
+        <name>Подготовка к экзаменам — 8 уроков</name>
+        <param name="План" unit="курс">Подготовка к экзаменам</param>
+        <param name="Продолжительность" unit="час">8</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Есть видеокурс">false</param>
+        <param name="Есть вебинар">false</param>
+        <param name="Есть домашние работы">true</param>
+        <param name="Сложность">Для новичков</param>
+        <param name="Тип обучения">Курс</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
+
       <offer id="exam-16" available="true">
         <url>https://larou-francaise.com/exams</url>
         <price>28800</price>
         <currencyId>RUR</currencyId>
-        <name>Экзамены — 16 уроков</name>
-        <param name="план">Подготовка к экзаменам</param>
-        <param name="продолжительность">16 уроков × 60 минут</param>
+        <categoryId>10020</categoryId>
+        <name>Подготовка к экзаменам — 16 уроков</name>
+        <param name="План" unit="курс">Подготовка к экзаменам</param>
+        <param name="Продолжительность" unit="час">16</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Есть видеокурс">false</param>
+        <param name="Есть вебинар">false</param>
+        <param name="Есть домашние работы">true</param>
+        <param name="Сложность">Для новичков</param>
+        <param name="Тип обучения">Курс</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
+
       <offer id="exam-trial" available="true">
         <url>https://larou-francaise.com/exams</url>
         <price>199</price>
         <currencyId>RUR</currencyId>
+        <categoryId>10020</categoryId>
         <name>Пробный урок (экзамены)</name>
-        <param name="план">Подготовка к экзаменам</param>
-        <param name="продолжительность">1 урок × 30–60 минут</param>
+        <param name="План" unit="курс">Подготовка к экзаменам</param>
+        <param name="Продолжительность" unit="час">1</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Есть видеокурс">false</param>
+        <param name="Есть вебинар">false</param>
+        <param name="Есть домашние работы">true</param>
+        <param name="Сложность">Для новичков</param>
+        <param name="Тип обучения">Курс</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
-      <!-- Для работы (урок 60 минут) -->
+      <!-- Деловой французский — categoryId 20003 -->
       <offer id="job-4" available="true">
         <url>https://larou-francaise.com/job</url>
         <price>8000</price>
         <currencyId>RUR</currencyId>
-        <name>Для работы — 4 урока</name>
-        <description>Деловой французский: коммуникация, письма, переговоры.</description>
-        <param name="план">Деловой французский</param>
-        <param name="продолжительность">4 урока × 60 минут</param>
+        <categoryId>20003</categoryId>
+        <name>Деловой французский — 4 урока</name>
+        <param name="План" unit="курс">Деловой французский</param>
+        <param name="Продолжительность" unit="час">4</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Есть видеокурс">false</param>
+        <param name="Есть вебинар">false</param>
+        <param name="Есть домашние работы">true</param>
+        <param name="Сложность">Для новичков</param>
+        <param name="Тип обучения">Курс</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
+
       <offer id="job-8" available="true">
         <url>https://larou-francaise.com/job</url>
         <price>15000</price>
         <currencyId>RUR</currencyId>
-        <name>Для работы — 8 уроков</name>
-        <param name="план">Деловой французский</param>
-        <param name="продолжительность">8 уроков × 60 минут</param>
+        <categoryId>20003</categoryId>
+        <name>Деловой французский — 8 уроков</name>
+        <param name="План" unit="курс">Деловой французский</param>
+        <param name="Продолжительность" unit="час">8</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Есть видеокурс">false</param>
+        <param name="Есть вебинар">false</param>
+        <param name="Есть домашние работы">true</param>
+        <param name="Сложность">Для новичков</param>
+        <param name="Тип обучения">Курс</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
+
       <offer id="job-16" available="true">
         <url>https://larou-francaise.com/job</url>
         <price>28800</price>
         <currencyId>RUR</currencyId>
-        <name>Для работы — 16 уроков</name>
-        <param name="план">Деловой французский</param>
-        <param name="продолжительность">16 уроков × 60 минут</param>
+        <categoryId>20003</categoryId>
+        <name>Деловой французский — 16 уроков</name>
+        <param name="План" unit="курс">Деловой французский</param>
+        <param name="Продолжительность" unit="час">16</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Есть видеокурс">false</param>
+        <param name="Есть вебинар">false</param>
+        <param name="Есть домашние работы">true</param>
+        <param name="Сложность">Для новичков</param>
+        <param name="Тип обучения">Курс</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
+
       <offer id="job-trial" available="true">
         <url>https://larou-francaise.com/job</url>
         <price>199</price>
         <currencyId>RUR</currencyId>
+        <categoryId>20003</categoryId>
         <name>Пробный урок (для работы)</name>
-        <param name="план">Деловой французский</param>
-        <param name="продолжительность">1 урок × 30–60 минут</param>
+        <param name="План" unit="курс">Деловой французский</param>
+        <param name="Продолжительность" unit="час">1</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Есть видеокурс">false</param>
+        <param name="Есть вебинар">false</param>
+        <param name="Есть домашние работы">true</param>
+        <param name="Сложность">Для новичков</param>
+        <param name="Тип обучения">Курс</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
-      <!-- Для переезда (урок 60 минут) -->
+      <!-- Для переезда — categoryId 20003 -->
       <offer id="move-4" available="true">
         <url>https://larou-francaise.com/removal</url>
         <price>8000</price>
         <currencyId>RUR</currencyId>
-        <name>Для переезда — 4 урока</name>
-        <description>Быт, документы, медицина, повседневные диалоги.</description>
-        <param name="план">Французский для переезда</param>
-        <param name="продолжительность">4 урока × 60 минут</param>
+        <categoryId>20003</categoryId>
+        <name>Французский для переезда — 4 урока</name>
+        <param name="План" unit="курс">Французский для переезда</param>
+        <param name="Продолжительность" unit="час">4</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Есть видеокурс">false</param>
+        <param name="Есть вебинар">false</param>
+        <param name="Есть домашние работы">true</param>
+        <param name="Сложность">Для новичков</param>
+        <param name="Тип обучения">Курс</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
+
       <offer id="move-8" available="true">
         <url>https://larou-francaise.com/removal</url>
         <price>15000</price>
         <currencyId>RUR</currencyId>
-        <name>Для переезда — 8 уроков</name>
-        <param name="план">Французский для переезда</param>
-        <param name="продолжительность">8 уроков × 60 минут</param>
+        <categoryId>20003</categoryId>
+        <name>Французский для переезда — 8 уроков</name>
+        <param name="План" unit="курс">Французский для переезда</param>
+        <param name="Продолжительность" unit="час">8</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Есть видеокурс">false</param>
+        <param name="Есть вебинар">false</param>
+        <param name="Есть домашние работы">true</param>
+        <param name="Сложность">Для новичков</param>
+        <param name="Тип обучения">Курс</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
+
       <offer id="move-16" available="true">
         <url>https://larou-francaise.com/removal</url>
         <price>28800</price>
         <currencyId>RUR</currencyId>
-        <name>Для переезда — 16 уроков</name>
-        <param name="план">Французский для переезда</param>
-        <param name="продолжительность">16 уроков × 60 минут</param>
+        <categoryId>20003</categoryId>
+        <name>Французский для переезда — 16 уроков</name>
+        <param name="План" unit="курс">Французский для переезда</param>
+        <param name="Продолжительность" unit="час">16</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Есть видеокурс">false</param>
+        <param name="Есть вебинар">false</param>
+        <param name="Есть домашние работы">true</param>
+        <param name="Сложность">Для новичков</param>
+        <param name="Тип обучения">Курс</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
+
       <offer id="move-trial" available="true">
         <url>https://larou-francaise.com/removal</url>
         <price>199</price>
         <currencyId>RUR</currencyId>
+        <categoryId>20003</categoryId>
         <name>Пробный урок (для переезда)</name>
-        <param name="план">Французский для переезда</param>
-        <param name="продолжительность">1 урок × 30–60 минут</param>
+        <param name="План" unit="курс">Французский для переезда</param>
+        <param name="Продолжительность" unit="час">1</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Есть видеокурс">false</param>
+        <param name="Есть вебинар">false</param>
+        <param name="Есть домашние работы">true</param>
+        <param name="Сложность">Для новичков</param>
+        <param name="Тип обучения">Курс</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
-      <!-- Парные (урок 60 минут) -->
+      <!-- Парные (60 мин/урок) — categoryId 20003 -->
       <offer id="pair-a1" available="true">
         <url>https://larou-francaise.com/grouplessons</url>
         <price>10300</price>
         <currencyId>RUR</currencyId>
-        <name>Парные — с 0 до уверенного A1 (8 уроков)</name>
-        <description>Два ученика в группе. Разговорная практика.</description>
-        <param name="план">Парные занятия</param>
-        <param name="продолжительность">8 уроков × 60 минут</param>
+        <categoryId>20003</categoryId>
+        <name>Парные занятия — с 0 до уверенного A1 (8 уроков)</name>
+        <param name="План" unit="курс">Парные занятия</param>
+        <param name="Продолжительность" unit="час">8</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Есть видеокурс">false</param>
+        <param name="Есть вебинар">false</param>
+        <param name="Есть домашние работы">true</param>
+        <param name="Сложность">Для новичков</param>
+        <param name="Тип обучения">Курс</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
+
       <offer id="pair-a2" available="true">
         <url>https://larou-francaise.com/grouplessons</url>
         <price>10300</price>
         <currencyId>RUR</currencyId>
-        <name>Парные — с A1 до уверенного A2 (8 уроков)</name>
-        <param name="план">Парные занятия</param>
-        <param name="продолжительность">8 уроков × 60 минут</param>
+        <categoryId>20003</categoryId>
+        <name>Парные занятия — с A1 до уверенного A2 (8 уроков)</name>
+        <param name="План" unit="курс">Парные занятия</param>
+        <param name="Продолжительность" unit="час">8</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Есть видеокурс">false</param>
+        <param name="Есть вебинар">false</param>
+        <param name="Есть домашние работы">true</param>
+        <param name="Сложность">Для новичков</param>
+        <param name="Тип обучения">Курс</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
+
       <offer id="pair-b1" available="true">
         <url>https://larou-francaise.com/grouplessons</url>
         <price>10300</price>
         <currencyId>RUR</currencyId>
-        <name>Парные — с A2 до уверенного B1 (8 уроков)</name>
-        <param name="план">Парные занятия</param>
-        <param name="продолжительность">8 уроков × 60 минут</param>
+        <categoryId>20003</categoryId>
+        <name>Парные занятия — с A2 до уверенного B1 (8 уроков)</name>
+        <param name="План" unit="курс">Парные занятия</param>
+        <param name="Продолжительность" unit="час">8</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Есть видеокурс">false</param>
+        <param name="Есть вебинар">false</param>
+        <param name="Есть домашние работы">true</param>
+        <param name="Сложность">Для новичков</param>
+        <param name="Тип обучения">Курс</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
+
       <offer id="pair-b2" available="true">
         <url>https://larou-francaise.com/grouplessons</url>
         <price>10300</price>
         <currencyId>RUR</currencyId>
-        <name>Парные — с B1 до уверенного B2 (8 уроков)</name>
-        <param name="план">Парные занятия</param>
-        <param name="продолжительность">8 уроков × 60 минут</param>
+        <categoryId>20003</categoryId>
+        <name>Парные занятия — с B1 до уверенного B2 (8 уроков)</name>
+        <param name="План" unit="курс">Парные занятия</param>
+        <param name="Продолжительность" unit="час">8</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Есть видеокурс">false</param>
+        <param name="Есть вебинар">false</param>
+        <param name="Есть домашние работы">true</param>
+        <param name="Сложность">Для новичков</param>
+        <param name="Тип обучения">Курс</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
-      <!-- Дети 30 минут -->
+      <!-- Дети (30 и 45 мин) — categoryId 10020 -->
       <offer id="kids30-4" available="true">
         <url>https://larou-francaise.com/forkids</url>
         <price>4400</price>
         <currencyId>RUR</currencyId>
+        <categoryId>10020</categoryId>
         <name>Дети (30 минут) — 4 урока</name>
-        <param name="план">Занятия для детей</param>
-        <param name="продолжительность">4 урока × 30 минут</param>
-        <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
-        <store>false</store><pickup>false</pickup><delivery>false</delivery>
-      </offer>
-      <offer id="kids30-8" available="true">
-        <url>https://larou-francaise.com/forkids</url>
-        <price>8400</price>
-        <currencyId>RUR</currencyId>
-        <name>Дети (30 минут) — 8 уроков</name>
-        <param name="план">Занятия для детей</param>
-        <param name="продолжительность">8 уроков × 30 минут</param>
-        <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
-        <store>false</store><pickup>false</pickup><delivery>false</delivery>
-      </offer>
-      <offer id="kids30-16" available="true">
-        <url>https://larou-francaise.com/forkids</url>
-        <price>16600</price>
-        <currencyId>RUR</currencyId>
-        <name>Дети (30 минут) — 16 уроков</name>
-        <param name="план">Занятия для детей</param>
-        <param name="продолжительность">16 уроков × 30 минут</param>
+        <param name="План" unit="курс">Занятия для детей</param>
+        <param name="Продолжительность" unit="час">2</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Есть видеокурс">false</param>
+        <param name="Есть вебинар">false</param>
+        <param name="Есть домашние работы">true</param>
+        <param name="Сложность">Для новичков</param>
+        <param name="Тип обучения">Курс</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
-      <!-- Дети 45 минут -->
+      <offer id="kids30-8" available="true">
+        <url>https://larou-francaise.com/forkids</url>
+        <price>8400</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>10020</categoryId>
+        <name>Дети (30 минут) — 8 уроков</name>
+        <param name="План" unit="курс">Занятия для детей</param>
+        <param name="Продолжительность" unit="час">4</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Есть видеокурс">false</param>
+        <param name="Есть вебинар">false</param>
+        <param name="Есть домашние работы">true</param>
+        <param name="Сложность">Для новичков</param>
+        <param name="Тип обучения">Курс</param>
+        <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
+        <store>false</store><pickup>false</pickup><delivery>false</delivery>
+      </offer>
+
+      <offer id="kids30-16" available="true">
+        <url>https://larou-francaise.com/forkids</url>
+        <price>16600</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>10020</categoryId>
+        <name>Дети (30 минут) — 16 уроков</name>
+        <param name="План" unit="курс">Занятия для детей</param>
+        <param name="Продолжительность" unit="час">8</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Есть видеокурс">false</param>
+        <param name="Есть вебинар">false</param>
+        <param name="Есть домашние работы">true</param>
+        <param name="Сложность">Для новичков</param>
+        <param name="Тип обучения">Курс</param>
+        <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
+        <store>false</store><pickup>false</pickup><delivery>false</delivery>
+      </offer>
+
       <offer id="kids45-4" available="true">
         <url>https://larou-francaise.com/forkids</url>
         <price>6500</price>
         <currencyId>RUR</currencyId>
+        <categoryId>10020</categoryId>
         <name>Дети (45 минут) — 4 урока</name>
-        <param name="план">Занятия для детей</param>
-        <param name="продолжительность">4 урока × 45 минут</param>
+        <param name="План" unit="курс">Занятия для детей</param>
+        <param name="Продолжительность" unit="час">3</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Есть видеокурс">false</param>
+        <param name="Есть вебинар">false</param>
+        <param name="Есть домашние работы">true</param>
+        <param name="Сложность">Для новичков</param>
+        <param name="Тип обучения">Курс</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
+
       <offer id="kids45-8" available="true">
         <url>https://larou-francaise.com/forkids</url>
         <price>11200</price>
         <currencyId>RUR</currencyId>
+        <categoryId>10020</categoryId>
         <name>Дети (45 минут) — 8 уроков</name>
-        <param name="план">Занятия для детей</param>
-        <param name="продолжительность">8 уроков × 45 минут</param>
+        <param name="План" unit="курс">Занятия для детей</param>
+        <param name="Продолжительность" unit="час">6</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Есть видеокурс">false</param>
+        <param name="Есть вебинар">false</param>
+        <param name="Есть домашние работы">true</param>
+        <param name="Сложность">Для новичков</param>
+        <param name="Тип обучения">Курс</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
+
       <offer id="kids45-16" available="true">
         <url>https://larou-francaise.com/forkids</url>
         <price>21700</price>
         <currencyId>RUR</currencyId>
+        <categoryId>10020</categoryId>
         <name>Дети (45 минут) — 16 уроков</name>
-        <param name="план">Занятия для детей</param>
-        <param name="продолжительность">16 уроков × 45 минут</param>
+        <param name="План" unit="курс">Занятия для детей</param>
+        <param name="Продолжительность" unit="час">12</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Есть видеокурс">false</param>
+        <param name="Есть вебинар">false</param>
+        <param name="Есть домашние работы">true</param>
+        <param name="Сложность">Для новичков</param>
+        <param name="Тип обучения">Курс</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
