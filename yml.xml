@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2025-09-02 12:00">
+<yml_catalog date="2025-09-03 12:00">
   <shop>
     <name>LaRou</name>
     <company>Онлайн-школа французского языка LaRou</company>
     <url>https://larou-francaise.com/</url>
     <email>larou.francaise@gmail.com</email>
     <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
-    <description>Онлайн-школа французского для детей и взрослых: индивидуальные, парные и корпоративные программы, подготовка к экзаменам.</description>
+    <description>Онлайн-школа французского языка для детей и взрослых: индивидуальные, парные, корпоративные программы и подготовка к экзаменам.</description>
 
     <currencies>
       <currency id="RUR" rate="1"/>
@@ -16,13 +16,15 @@
 
       <!-- Индивидуальные (60 мин/урок) — categoryId 20003 -->
       <offer id="ind-4" available="true">
-        <url>https://larou-francaise.com/individlesson</url>
+        <url>https://larou-francaise.com/individlesson?p=ind-4</url>
         <price>8000</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Индивидуальные занятия — 4 урока</name>
-        <description>Онлайн-занятия 1 на 1 с преподавателем. Гибкое расписание.</description>
-        <param name="План" unit="курс">Индивидуальные занятия</param>
+        <description>Онлайн-занятия 1 на 1. Гибкое расписание.</description>
+        <param name="План" unit="Грамматика">База времен и структура предложения.</param>
+        <param name="План" unit="Лексика">Топовые темы повседневного общения.</param>
+        <param name="План" unit="Разговорная практика">Диалоги и отработка произношения.</param>
         <param name="Продолжительность" unit="час">4</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -35,12 +37,14 @@
       </offer>
 
       <offer id="ind-8" available="true">
-        <url>https://larou-francaise.com/individlesson</url>
+        <url>https://larou-francaise.com/individlesson?p=ind-8</url>
         <price>15000</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Индивидуальные занятия — 8 уроков</name>
-        <param name="План" unit="курс">Индивидуальные занятия</param>
+        <param name="План" unit="Грамматика">Согласование, прилагательные, местоимения.</param>
+        <param name="План" unit="Лексика">Повседневные и travel-ситуации.</param>
+        <param name="План" unit="Разговорная практика">Ролевые диалоги, спонтанная речь.</param>
         <param name="Продолжительность" unit="час">8</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -53,12 +57,14 @@
       </offer>
 
       <offer id="ind-16" available="true">
-        <url>https://larou-francaise.com/individlesson</url>
+        <url>https://larou-francaise.com/individlesson?p=ind-16</url>
         <price>28800</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Индивидуальные занятия — 16 уроков</name>
-        <param name="План" unit="курс">Индивидуальные занятия</param>
+        <param name="План" unit="Грамматика">Все времена A1–A2, простые конструкции B1.</param>
+        <param name="План" unit="Лексика">Быт, услуги, путешествия, эмоции.</param>
+        <param name="План" unit="Разговорная практика">Свободные беседы и монологи.</param>
         <param name="Продолжительность" unit="час">16</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -71,12 +77,14 @@
       </offer>
 
       <offer id="ind-trial" available="true">
-        <url>https://larou-francaise.com/individlesson</url>
+        <url>https://larou-francaise.com/individlesson?p=ind-trial</url>
         <price>199</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Пробный урок (индивидуальные)</name>
-        <param name="План" unit="курс">Индивидуальные занятия</param>
+        <param name="План" unit="Знакомство">Определение уровня и целей.</param>
+        <param name="План" unit="Мини-урок">Короткая демонстрация формата.</param>
+        <param name="План" unit="План обучения">Подбор программы и графика.</param>
         <param name="Продолжительность" unit="час">1</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -88,15 +96,17 @@
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
-      <!-- Подготовка к экзаменам — categoryId 10020 -->
+      <!-- Экзамены (60 мин/урок) — categoryId 10020 -->
       <offer id="exam-4" available="true">
-        <url>https://larou-francaise.com/exams</url>
+        <url>https://larou-francaise.com/exams?p=exam-4</url>
         <price>8000</price>
         <currencyId>RUR</currencyId>
         <categoryId>10020</categoryId>
         <name>Подготовка к экзаменам — 4 урока</name>
-        <description>DELF/DALF, TCF, ЕГЭ. Индивидуальная подготовка.</description>
-        <param name="План" unit="курс">Подготовка к экзаменам</param>
+        <description>DELF/DALF, TCF, ЕГЭ: индивидуальная подготовка.</description>
+        <param name="План" unit="Стратегии">Разбор формата и критериев.</param>
+        <param name="План" unit="Письмо/Чтение">Типовые задания и шаблоны.</param>
+        <param name="План" unit="Аудирование/Говорение">Тренировка по билету.</param>
         <param name="Продолжительность" unit="час">4</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -109,12 +119,14 @@
       </offer>
 
       <offer id="exam-8" available="true">
-        <url>https://larou-francaise.com/exams</url>
+        <url>https://larou-francaise.com/exams?p=exam-8</url>
         <price>15000</price>
         <currencyId>RUR</currencyId>
         <categoryId>10020</categoryId>
         <name>Подготовка к экзаменам — 8 уроков</name>
-        <param name="План" unit="курс">Подготовка к экзаменам</param>
+        <param name="План" unit="Стратегии">Тактика по разделам.</param>
+        <param name="План" unit="Тренажёры">Полноценные блоки заданий.</param>
+        <param name="План" unit="Мок-экзамен">Пробный тест с проверкой.</param>
         <param name="Продолжительность" unit="час">8</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -127,12 +139,14 @@
       </offer>
 
       <offer id="exam-16" available="true">
-        <url>https://larou-francaise.com/exams</url>
+        <url>https://larou-francaise.com/exams?p=exam-16</url>
         <price>28800</price>
         <currencyId>RUR</currencyId>
         <categoryId>10020</categoryId>
         <name>Подготовка к экзаменам — 16 уроков</name>
-        <param name="План" unit="курс">Подготовка к экзаменам</param>
+        <param name="План" unit="Стратегии">Глубокая отработка всех разделов.</param>
+        <param name="План" unit="Практика">Разбор типовых ловушек.</param>
+        <param name="План" unit="Мок-экзамены">2–3 полных прогона.</param>
         <param name="Продолжительность" unit="час">16</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -145,12 +159,14 @@
       </offer>
 
       <offer id="exam-trial" available="true">
-        <url>https://larou-francaise.com/exams</url>
+        <url>https://larou-francaise.com/exams?p=exam-trial</url>
         <price>199</price>
         <currencyId>RUR</currencyId>
         <categoryId>10020</categoryId>
         <name>Пробный урок (экзамены)</name>
-        <param name="План" unit="курс">Подготовка к экзаменам</param>
+        <param name="План" unit="Диагностика">Определение уровня по целевому экзамену.</param>
+        <param name="План" unit="План подготовки">Календарь и приоритеты.</param>
+        <param name="План" unit="Рекомендации">Материалы и домашний план.</param>
         <param name="Продолжительность" unit="час">1</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -164,12 +180,14 @@
 
       <!-- Деловой французский — categoryId 20003 -->
       <offer id="job-4" available="true">
-        <url>https://larou-francaise.com/job</url>
+        <url>https://larou-francaise.com/job?p=job-4</url>
         <price>8000</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Деловой французский — 4 урока</name>
-        <param name="План" unit="курс">Деловой французский</param>
+        <param name="План" unit="Лексика бизнеса">Встречи, звонки, small talk.</param>
+        <param name="План" unit="Письма/Документы">Этикет деловой переписки.</param>
+        <param name="План" unit="Переговоры">Аргументация и презентация.</param>
         <param name="Продолжительность" unit="час">4</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -182,12 +200,14 @@
       </offer>
 
       <offer id="job-8" available="true">
-        <url>https://larou-francaise.com/job</url>
+        <url>https://larou-francaise.com/job?p=job-8</url>
         <price>15000</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Деловой французский — 8 уроков</name>
-        <param name="План" unit="курс">Деловой французский</param>
+        <param name="План" unit="Лексика бизнеса">Коммуникация в офисе.</param>
+        <param name="План" unit="Письма/Документы">Шаблоны и разбор кейсов.</param>
+        <param name="План" unit="Переговоры">Практика сценариев.</param>
         <param name="Продолжительность" unit="час">8</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -200,12 +220,14 @@
       </offer>
 
       <offer id="job-16" available="true">
-        <url>https://larou-francaise.com/job</url>
+        <url>https://larou-francaise.com/job?p=job-16</url>
         <price>28800</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Деловой французский — 16 уроков</name>
-        <param name="План" unit="курс">Деловой французский</param>
+        <param name="План" unit="Лексика бизнеса">Специализированные темы.</param>
+        <param name="План" unit="Письма/Документы">Тонкости стиля.</param>
+        <param name="План" unit="Переговоры">Сложные кейсы и презентации.</param>
         <param name="Продолжительность" unit="час">16</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -218,12 +240,14 @@
       </offer>
 
       <offer id="job-trial" available="true">
-        <url>https://larou-francaise.com/job</url>
+        <url>https://larou-francaise.com/job?p=job-trial</url>
         <price>199</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Пробный урок (для работы)</name>
-        <param name="План" unit="курс">Деловой французский</param>
+        <param name="План" unit="Диагностика">Профиль задач и уровень.</param>
+        <param name="План" unit="Мини-урок">Тренировка под ваши кейсы.</param>
+        <param name="План" unit="План обучения">Цели и график.</param>
         <param name="Продолжительность" unit="час">1</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -235,14 +259,16 @@
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
-      <!-- Для переезда — categoryId 20003 -->
+      <!-- Переезд — categoryId 20003 -->
       <offer id="move-4" available="true">
-        <url>https://larou-francaise.com/removal</url>
+        <url>https://larou-francaise.com/removal?p=move-4</url>
         <price>8000</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Французский для переезда — 4 урока</name>
-        <param name="План" unit="курс">Французский для переезда</param>
+        <param name="План" unit="Быт/Документы">Основные диалоги и справки.</param>
+        <param name="План" unit="Медицина/Госуслуги">Записи, приёмы, заявления.</param>
+        <param name="План" unit="Коммуникация">Повседневное общение.</param>
         <param name="Продолжительность" unit="час">4</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -255,12 +281,14 @@
       </offer>
 
       <offer id="move-8" available="true">
-        <url>https://larou-francaise.com/removal</url>
+        <url>https://larou-francaise.com/removal?p=move-8</url>
         <price>15000</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Французский для переезда — 8 уроков</name>
-        <param name="План" unit="курс">Французский для переезда</param>
+        <param name="План" unit="Быт/Документы">Расширенная лексика.</param>
+        <param name="План" unit="Медицина/Госуслуги">Сложные сценарии.</param>
+        <param name="План" unit="Коммуникация">Практика диалогов.</param>
         <param name="Продолжительность" unit="час">8</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -273,12 +301,14 @@
       </offer>
 
       <offer id="move-16" available="true">
-        <url>https://larou-francaise.com/removal</url>
+        <url>https://larou-francaise.com/removal?p=move-16</url>
         <price>28800</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Французский для переезда — 16 уроков</name>
-        <param name="План" unit="курс">Французский для переезда</param>
+        <param name="План" unit="Быт/Документы">Полный набор сценариев.</param>
+        <param name="План" unit="Медицина/Госуслуги">Глубокая практика.</param>
+        <param name="План" unit="Коммуникация">Свободная речь.</param>
         <param name="Продолжительность" unit="час">16</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -291,12 +321,14 @@
       </offer>
 
       <offer id="move-trial" available="true">
-        <url>https://larou-francaise.com/removal</url>
+        <url>https://larou-francaise.com/removal?p=move-trial</url>
         <price>199</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Пробный урок (для переезда)</name>
-        <param name="План" unit="курс">Французский для переезда</param>
+        <param name="План" unit="Диагностика">Цели, опыт, маршрут переезда.</param>
+        <param name="План" unit="Мини-урок">Сценарии бытовых диалогов.</param>
+        <param name="План" unit="План обучения">Роадмап на 1–3 месяца.</param>
         <param name="Продолжительность" unit="час">1</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -310,12 +342,14 @@
 
       <!-- Парные (60 мин/урок) — categoryId 20003 -->
       <offer id="pair-a1" available="true">
-        <url>https://larou-francaise.com/grouplessons</url>
+        <url>https://larou-francaise.com/grouplessons?p=pair-a1</url>
         <price>10300</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Парные занятия — с 0 до уверенного A1 (8 уроков)</name>
-        <param name="План" unit="курс">Парные занятия</param>
+        <param name="План" unit="Грамматика A1">Базовые конструкции.</param>
+        <param name="План" unit="Лексика A1">Бытовые темы.</param>
+        <param name="План" unit="Разговорная практика">Диалоги в парах.</param>
         <param name="Продолжительность" unit="час">8</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -328,12 +362,14 @@
       </offer>
 
       <offer id="pair-a2" available="true">
-        <url>https://larou-francaise.com/grouplessons</url>
+        <url>https://larou-francaise.com/grouplessons?p=pair-a2</url>
         <price>10300</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Парные занятия — с A1 до уверенного A2 (8 уроков)</name>
-        <param name="План" unit="курс">Парные занятия</param>
+        <param name="План" unit="Грамматика A2">Прошедшее/будущее, модальные.</param>
+        <param name="План" unit="Лексика A2">Сервисы, путешествия.</param>
+        <param name="План" unit="Разговорная практика">Импровизация.</param>
         <param name="Продолжительность" unit="час">8</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -346,12 +382,14 @@
       </offer>
 
       <offer id="pair-b1" available="true">
-        <url>https://larou-francaise.com/grouplessons</url>
+        <url>https://larou-francaise.com/grouplessons?p=pair-b1</url>
         <price>10300</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Парные занятия — с A2 до уверенного B1 (8 уроков)</name>
-        <param name="План" unit="курс">Парные занятия</param>
+        <param name="План" unit="Грамматика B1">Сложные конструкции.</param>
+        <param name="План" unit="Лексика B1">Работа/учёба, эмоции.</param>
+        <param name="План" unit="Разговорная практика">Обсуждения и мнения.</param>
         <param name="Продолжительность" unit="час">8</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -364,12 +402,14 @@
       </offer>
 
       <offer id="pair-b2" available="true">
-        <url>https://larou-francaise.com/grouplessons</url>
+        <url>https://larou-francaise.com/grouplessons?p=pair-b2</url>
         <price>10300</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Парные занятия — с B1 до уверенного B2 (8 уроков)</name>
-        <param name="План" unit="курс">Парные занятия</param>
+        <param name="План" unit="Грамматика B2">Оттенки значений.</param>
+        <param name="План" unit="Лексика B2">Дискуссии и презентации.</param>
+        <param name="План" unit="Разговорная практика">Свободная речь.</param>
         <param name="Продолжительность" unit="час">8</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -381,14 +421,16 @@
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
-      <!-- Дети (30 и 45 мин) — categoryId 10020 -->
+      <!-- Дети — categoryId 10020 -->
       <offer id="kids30-4" available="true">
-        <url>https://larou-francaise.com/forkids</url>
+        <url>https://larou-francaise.com/forkids?p=kids30-4</url>
         <price>4400</price>
         <currencyId>RUR</currencyId>
         <categoryId>10020</categoryId>
         <name>Дети (30 минут) — 4 урока</name>
-        <param name="План" unit="курс">Занятия для детей</param>
+        <param name="План" unit="Игровая лексика">Животные, цвета, семья.</param>
+        <param name="План" unit="Фонетика">Буквы и звуки.</param>
+        <param name="План" unit="Чтение/Письмо">Первые слова.</param>
         <param name="Продолжительность" unit="час">2</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -401,12 +443,14 @@
       </offer>
 
       <offer id="kids30-8" available="true">
-        <url>https://larou-francaise.com/forkids</url>
+        <url>https://larou-francaise.com/forkids?p=kids30-8</url>
         <price>8400</price>
         <currencyId>RUR</currencyId>
         <categoryId>10020</categoryId>
         <name>Дети (30 минут) — 8 уроков</name>
-        <param name="План" unit="курс">Занятия для детей</param>
+        <param name="План" unit="Игровая лексика">Дом, еда, школа.</param>
+        <param name="План" unit="Фонетика">Слоговое чтение.</param>
+        <param name="План" unit="Чтение/Письмо">Короткие предложения.</param>
         <param name="Продолжительность" unit="час">4</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -419,12 +463,14 @@
       </offer>
 
       <offer id="kids30-16" available="true">
-        <url>https://larou-francaise.com/forkids</url>
+        <url>https://larou-francaise.com/forkids?p=kids30-16</url>
         <price>16600</price>
         <currencyId>RUR</currencyId>
         <categoryId>10020</categoryId>
         <name>Дети (30 минут) — 16 уроков</name>
-        <param name="План" unit="курс">Занятия для детей</param>
+        <param name="План" unit="Игровая лексика">Природа, увлечения.</param>
+        <param name="План" unit="Фонетика">Плавное чтение.</param>
+        <param name="План" unit="Чтение/Письмо">Короткие рассказы.</param>
         <param name="Продолжительность" unit="час">8</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -437,12 +483,14 @@
       </offer>
 
       <offer id="kids45-4" available="true">
-        <url>https://larou-francaise.com/forkids</url>
+        <url>https://larou-francaise.com/forkids?p=kids45-4</url>
         <price>6500</price>
         <currencyId>RUR</currencyId>
         <categoryId>10020</categoryId>
         <name>Дети (45 минут) — 4 урока</name>
-        <param name="План" unit="курс">Занятия для детей</param>
+        <param name="План" unit="Игровая лексика">Профессии, транспорт.</param>
+        <param name="План" unit="Фонетика">Мелодика речи.</param>
+        <param name="План" unit="Чтение/Письмо">Карточки и комиксы.</param>
         <param name="Продолжительность" unit="час">3</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -455,12 +503,14 @@
       </offer>
 
       <offer id="kids45-8" available="true">
-        <url>https://larou-francaise.com/forkids</url>
+        <url>https://larou-francaise.com/forkids?p=kids45-8</url>
         <price>11200</price>
         <currencyId>RUR</currencyId>
         <categoryId>10020</categoryId>
         <name>Дети (45 минут) — 8 уроков</name>
-        <param name="План" unit="курс">Занятия для детей</param>
+        <param name="План" unit="Игровая лексика">Погода, покупки.</param>
+        <param name="План" unit="Фонетика">Интонация.</param>
+        <param name="План" unit="Чтение/Письмо">Мини-тексты.</param>
         <param name="Продолжительность" unit="час">6</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -473,12 +523,14 @@
       </offer>
 
       <offer id="kids45-16" available="true">
-        <url>https://larou-francaise.com/forkids</url>
+        <url>https://larou-francaise.com/forkids?p=kids45-16</url>
         <price>21700</price>
         <currencyId>RUR</currencyId>
         <categoryId>10020</categoryId>
         <name>Дети (45 минут) — 16 уроков</name>
-        <param name="План" unit="курс">Занятия для детей</param>
+        <param name="План" unit="Игровая лексика">Путешествия, праздники.</param>
+        <param name="План" unit="Фонетика">Чёткая дикция.</param>
+        <param name="План" unit="Чтение/Письмо">Небольшие рассказы.</param>
         <param name="Продолжительность" unit="час">12</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
