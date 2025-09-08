@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2025-09-03 12:00">
+<yml_catalog date="2025-09-08 18:00">
   <shop>
     <name>LaRou</name>
     <company>Онлайн-школа французского языка LaRou</company>
     <url>https://larou-francaise.com/</url>
     <email>larou.francaise@gmail.com</email>
+    <!-- логотип площадки (PNG >=300x300) -->
     <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
-    <description>Онлайн-школа французского языка для детей и взрослых: индивидуальные, парные, корпоративные программы и подготовка к экзаменам.</description>
+    <description>Онлайн-школа французского для детей и взрослых: индивидуальные, парные и корпоративные программы, подготовка к экзаменам.</description>
 
     <currencies>
       <currency id="RUR" rate="1"/>
@@ -14,17 +15,17 @@
 
     <offers>
 
-      <!-- Индивидуальные (60 мин/урок) — categoryId 20003 -->
+      <!-- ИНДИВИДУАЛЬНЫЕ (60 мин/урок) — categoryId 20003 -->
       <offer id="ind-4" available="true">
         <url>https://larou-francaise.com/individlesson?p=ind-4</url>
         <price>8000</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Индивидуальные занятия — 4 урока</name>
-        <description>Онлайн-занятия 1 на 1. Гибкое расписание.</description>
-        <param name="План" unit="Грамматика">База времен и структура предложения.</param>
-        <param name="План" unit="Лексика">Топовые темы повседневного общения.</param>
-        <param name="План" unit="Разговорная практика">Диалоги и отработка произношения.</param>
+        <description>Персональные уроки с преподавателем. Удобное время и индивидуальный темп. Подходит для начинающих и продолжающих.</description>
+        <param name="План" unit="Грамматика">Учимся строить фразы без ошибок</param>
+        <param name="План" unit="Лексика">200+ слов для общения и путешествий</param>
+        <param name="План" unit="Разговорная практика">Диалоги на реальные темы</param>
         <param name="Продолжительность" unit="час">4</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -42,9 +43,10 @@
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Индивидуальные занятия — 8 уроков</name>
-        <param name="План" unit="Грамматика">Согласование, прилагательные, местоимения.</param>
-        <param name="План" unit="Лексика">Повседневные и travel-ситуации.</param>
-        <param name="План" unit="Разговорная практика">Ролевые диалоги, спонтанная речь.</param>
+        <description>Персональные уроки с преподавателем. Удобное время и индивидуальный темп. Подходит для начинающих и продолжающих.</description>
+        <param name="План" unit="Грамматика">Учимся строить фразы без ошибок</param>
+        <param name="План" unit="Лексика">200+ слов для общения и путешествий</param>
+        <param name="План" unit="Разговорная практика">Диалоги на реальные темы</param>
         <param name="Продолжительность" unit="час">8</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -62,9 +64,10 @@
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Индивидуальные занятия — 16 уроков</name>
-        <param name="План" unit="Грамматика">Все времена A1–A2, простые конструкции B1.</param>
-        <param name="План" unit="Лексика">Быт, услуги, путешествия, эмоции.</param>
-        <param name="План" unit="Разговорная практика">Свободные беседы и монологи.</param>
+        <description>Персональные уроки с преподавателем. Максимум практики и уверенности в речи.</description>
+        <param name="План" unit="Грамматика">Все времена A1–A2, основы B1</param>
+        <param name="План" unit="Лексика">Быт, услуги, путешествия, эмоции</param>
+        <param name="План" unit="Разговорная практика">Свободные беседы и монологи</param>
         <param name="Продолжительность" unit="час">16</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -82,9 +85,10 @@
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Пробный урок (индивидуальные)</name>
-        <param name="План" unit="Знакомство">Определение уровня и целей.</param>
-        <param name="План" unit="Мини-урок">Короткая демонстрация формата.</param>
-        <param name="План" unit="План обучения">Подбор программы и графика.</param>
+        <description>Знакомство с преподавателем, мини-урок и план обучения.</description>
+        <param name="План" unit="Диагностика">Определяем уровень и цели</param>
+        <param name="План" unit="Мини-урок">Пробуем формат занятий</param>
+        <param name="План" unit="План обучения">Согласуем программу и график</param>
         <param name="Продолжительность" unit="час">1</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -96,17 +100,17 @@
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
-      <!-- Экзамены (60 мин/урок) — categoryId 10020 -->
+      <!-- ЭКЗАМЕНЫ — categoryId 10020 -->
       <offer id="exam-4" available="true">
         <url>https://larou-francaise.com/exams?p=exam-4</url>
         <price>8000</price>
         <currencyId>RUR</currencyId>
         <categoryId>10020</categoryId>
         <name>Подготовка к экзаменам — 4 урока</name>
-        <description>DELF/DALF, TCF, ЕГЭ: индивидуальная подготовка.</description>
-        <param name="План" unit="Стратегии">Разбор формата и критериев.</param>
-        <param name="План" unit="Письмо/Чтение">Типовые задания и шаблоны.</param>
-        <param name="План" unit="Аудирование/Говорение">Тренировка по билету.</param>
+        <description>DELF/DALF, TCF, ЕГЭ: стратегия, типовые задания и разбор ошибок.</description>
+        <param name="План" unit="Стратегия">Разбираем формат и критерии</param>
+        <param name="План" unit="Практика">Выполняем типовые задания</param>
+        <param name="План" unit="Мок-экзамен">Мини тест с проверкой</param>
         <param name="Продолжительность" unit="час">4</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -124,9 +128,10 @@
         <currencyId>RUR</currencyId>
         <categoryId>10020</categoryId>
         <name>Подготовка к экзаменам — 8 уроков</name>
-        <param name="План" unit="Стратегии">Тактика по разделам.</param>
-        <param name="План" unit="Тренажёры">Полноценные блоки заданий.</param>
-        <param name="План" unit="Мок-экзамен">Пробный тест с проверкой.</param>
+        <description>Глубокая тренировка всех разделов и один пробный тест.</description>
+        <param name="План" unit="Стратегия">Тактика по разделам</param>
+        <param name="План" unit="Практика">Тренажёры и домашние задания</param>
+        <param name="План" unit="Мок-экзамен">Пробный тест с обратной связью</param>
         <param name="Продолжительность" unit="час">8</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -144,9 +149,10 @@
         <currencyId>RUR</currencyId>
         <categoryId>10020</categoryId>
         <name>Подготовка к экзаменам — 16 уроков</name>
-        <param name="План" unit="Стратегии">Глубокая отработка всех разделов.</param>
-        <param name="План" unit="Практика">Разбор типовых ловушек.</param>
-        <param name="План" unit="Мок-экзамены">2–3 полных прогона.</param>
+        <description>Полный цикл подготовки с 2–3 «моками» и разбором критериев.</description>
+        <param name="План" unit="Стратегия">Разделы и критерии оценивания</param>
+        <param name="План" unit="Практика">Разбор типичных ошибок</param>
+        <param name="План" unit="Мок-экзамены">2–3 полных прогона</param>
         <param name="Продолжительность" unit="час">16</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -164,9 +170,10 @@
         <currencyId>RUR</currencyId>
         <categoryId>10020</categoryId>
         <name>Пробный урок (экзамены)</name>
-        <param name="План" unit="Диагностика">Определение уровня по целевому экзамену.</param>
-        <param name="План" unit="План подготовки">Календарь и приоритеты.</param>
-        <param name="План" unit="Рекомендации">Материалы и домашний план.</param>
+        <description>Диагностика, план подготовки и рекомендации по материалам.</description>
+        <param name="План" unit="Диагностика">Определяем уровень по целевому экзамену</param>
+        <param name="План" unit="План подготовки">Составляем дорожную карту</param>
+        <param name="План" unit="Рекомендации">Материалы и режим занятий</param>
         <param name="Продолжительность" unit="час">1</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -178,16 +185,17 @@
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
-      <!-- Деловой французский — categoryId 20003 -->
+      <!-- ДЛЯ РАБОТЫ — categoryId 20003 -->
       <offer id="job-4" available="true">
         <url>https://larou-francaise.com/job?p=job-4</url>
         <price>8000</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Деловой французский — 4 урока</name>
-        <param name="План" unit="Лексика бизнеса">Встречи, звонки, small talk.</param>
-        <param name="План" unit="Письма/Документы">Этикет деловой переписки.</param>
-        <param name="План" unit="Переговоры">Аргументация и презентация.</param>
+        <description>Письма, звонки и встречи на французском. Быстрый старт для офиса.</description>
+        <param name="План" unit="Лексика бизнеса">Собрания, звонки, small talk</param>
+        <param name="План" unit="Документы">Письма и деловая переписка</param>
+        <param name="План" unit="Переговоры">Аргументация и презентации</param>
         <param name="Продолжительность" unit="час">4</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -205,9 +213,10 @@
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Деловой французский — 8 уроков</name>
-        <param name="План" unit="Лексика бизнеса">Коммуникация в офисе.</param>
-        <param name="План" unit="Письма/Документы">Шаблоны и разбор кейсов.</param>
-        <param name="План" unit="Переговоры">Практика сценариев.</param>
+        <description>Уверенная коммуникация в офисе: письма, звонки, мини-презентации.</description>
+        <param name="План" unit="Лексика бизнеса">Коммуникация в офисе</param>
+        <param name="План" unit="Документы">Шаблоны и кейсы</param>
+        <param name="План" unit="Переговоры">Практика сценариев</param>
         <param name="Продолжительность" unit="час">8</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -225,9 +234,10 @@
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Деловой французский — 16 уроков</name>
-        <param name="План" unit="Лексика бизнеса">Специализированные темы.</param>
-        <param name="План" unit="Письма/Документы">Тонкости стиля.</param>
-        <param name="План" unit="Переговоры">Сложные кейсы и презентации.</param>
+        <description>Расширенная деловая лексика и сложные переговорные кейсы.</description>
+        <param name="План" unit="Лексика бизнеса">Специализированные темы</param>
+        <param name="План" unit="Документы">Стиль и тон письма</param>
+        <param name="План" unit="Переговоры">Сложные кейсы и презентации</param>
         <param name="Продолжительность" unit="час">16</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -245,9 +255,10 @@
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Пробный урок (для работы)</name>
-        <param name="План" unit="Диагностика">Профиль задач и уровень.</param>
-        <param name="План" unit="Мини-урок">Тренировка под ваши кейсы.</param>
-        <param name="План" unit="План обучения">Цели и график.</param>
+        <description>Диагностика задач, мини-урок по вашим кейсам и план обучения.</description>
+        <param name="План" unit="Диагностика">Профиль задач и уровень</param>
+        <param name="План" unit="Мини-урок">Тренировка под ваши кейсы</param>
+        <param name="План" unit="План обучения">Цели и график</param>
         <param name="Продолжительность" unit="час">1</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -259,16 +270,17 @@
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
-      <!-- Переезд — categoryId 20003 -->
+      <!-- ПЕРЕЕЗД — categoryId 20003 -->
       <offer id="move-4" available="true">
         <url>https://larou-francaise.com/removal?p=move-4</url>
         <price>8000</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Французский для переезда — 4 урока</name>
-        <param name="План" unit="Быт/Документы">Основные диалоги и справки.</param>
-        <param name="План" unit="Медицина/Госуслуги">Записи, приёмы, заявления.</param>
-        <param name="План" unit="Коммуникация">Повседневное общение.</param>
+        <description>Бытовые диалоги, документы и базовые сценарии для жизни во Франции.</description>
+        <param name="План" unit="Быт">Магазин, транспорт, кафе</param>
+        <param name="План" unit="Документы">Справки и формы</param>
+        <param name="План" unit="Медицина">Запись к врачу и аптека</param>
         <param name="Продолжительность" unit="час">4</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -286,9 +298,10 @@
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Французский для переезда — 8 уроков</name>
-        <param name="План" unit="Быт/Документы">Расширенная лексика.</param>
-        <param name="План" unit="Медицина/Госуслуги">Сложные сценарии.</param>
-        <param name="План" unit="Коммуникация">Практика диалогов.</param>
+        <description>Расширенная лексика, госуслуги и сложные бытовые сценарии.</description>
+        <param name="План" unit="Быт">Расширяем повседневные темы</param>
+        <param name="План" unit="Документы">Сложные заявления</param>
+        <param name="План" unit="Медицина">Подробные диалоги</param>
         <param name="Продолжительность" unit="час">8</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -306,9 +319,10 @@
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Французский для переезда — 16 уроков</name>
-        <param name="План" unit="Быт/Документы">Полный набор сценариев.</param>
-        <param name="План" unit="Медицина/Госуслуги">Глубокая практика.</param>
-        <param name="План" unit="Коммуникация">Свободная речь.</param>
+        <description>Полная подготовка ко всем жизненным ситуациям: быт, медицина, госуслуги.</description>
+        <param name="План" unit="Быт">Полный набор сценариев</param>
+        <param name="План" unit="Документы">Глубокая практика</param>
+        <param name="План" unit="Коммуникация">Свободная речь</param>
         <param name="Продолжительность" unit="час">16</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -326,9 +340,10 @@
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Пробный урок (для переезда)</name>
-        <param name="План" unit="Диагностика">Цели, опыт, маршрут переезда.</param>
-        <param name="План" unit="Мини-урок">Сценарии бытовых диалогов.</param>
-        <param name="План" unit="План обучения">Роадмап на 1–3 месяца.</param>
+        <description>Диагностика задач, мини-урок по бытовым диалогам и план переезда.</description>
+        <param name="План" unit="Диагностика">Цели, опыт, маршрут</param>
+        <param name="План" unit="Мини-урок">Жизненные диалоги</param>
+        <param name="План" unit="План обучения">Роадмап на 1–3 месяца</param>
         <param name="Продолжительность" unit="час">1</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -340,16 +355,17 @@
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
-      <!-- Парные (60 мин/урок) — categoryId 20003 -->
+      <!-- ПАРНЫЕ (60 мин/урок) — categoryId 20003 -->
       <offer id="pair-a1" available="true">
         <url>https://larou-francaise.com/grouplessons?p=pair-a1</url>
         <price>10300</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Парные занятия — с 0 до уверенного A1 (8 уроков)</name>
-        <param name="План" unit="Грамматика A1">Базовые конструкции.</param>
-        <param name="План" unit="Лексика A1">Бытовые темы.</param>
-        <param name="План" unit="Разговорная практика">Диалоги в парах.</param>
+        <description>Учитесь вдвоём: взаимная поддержка и практика диалогов на уровне A1.</description>
+        <param name="План" unit="Грамматика A1">Базовые конструкции</param>
+        <param name="План" unit="Лексика A1">Бытовые темы</param>
+        <param name="План" unit="Разговорная практика">Диалоги в парах</param>
         <param name="Продолжительность" unit="час">8</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -367,9 +383,10 @@
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Парные занятия — с A1 до уверенного A2 (8 уроков)</name>
-        <param name="План" unit="Грамматика A2">Прошедшее/будущее, модальные.</param>
-        <param name="План" unit="Лексика A2">Сервисы, путешествия.</param>
-        <param name="План" unit="Разговорная практика">Импровизация.</param>
+        <description>Практика для уровня A2: прошедшее/будущее и темы сервиса, путешествий.</description>
+        <param name="План" unit="Грамматика A2">Прошедшее/будущее, модальные</param>
+        <param name="План" unit="Лексика A2">Сервисы, путешествия</param>
+        <param name="План" unit="Разговорная практика">Импровизация</param>
         <param name="Продолжительность" unit="час">8</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -387,9 +404,10 @@
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Парные занятия — с A2 до уверенного B1 (8 уроков)</name>
-        <param name="План" unit="Грамматика B1">Сложные конструкции.</param>
-        <param name="План" unit="Лексика B1">Работа/учёба, эмоции.</param>
-        <param name="План" unit="Разговорная практика">Обсуждения и мнения.</param>
+        <description>Выходим на уверенный B1: сложнее грамматика и свободные обсуждения.</description>
+        <param name="План" unit="Грамматика B1">Сложные конструкции</param>
+        <param name="План" unit="Лексика B1">Работа/учёба, эмоции</param>
+        <param name="План" unit="Разговорная практика">Обсуждения и мнения</param>
         <param name="Продолжительность" unit="час">8</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -407,9 +425,10 @@
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Парные занятия — с B1 до уверенного B2 (8 уроков)</name>
-        <param name="План" unit="Грамматика B2">Оттенки значений.</param>
-        <param name="План" unit="Лексика B2">Дискуссии и презентации.</param>
-        <param name="План" unit="Разговорная практика">Свободная речь.</param>
+        <description>Закрепляем B2: дискуссии, презентации и устойчивая речь.</description>
+        <param name="План" unit="Грамматика B2">Оттенки значений</param>
+        <param name="План" unit="Лексика B2">Дискуссии и презентации</param>
+        <param name="План" unit="Разговорная практика">Свободная речь</param>
         <param name="Продолжительность" unit="час">8</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -421,16 +440,17 @@
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
-      <!-- Дети — categoryId 10020 -->
+      <!-- ДЕТИ — categoryId 10020 -->
       <offer id="kids30-4" available="true">
         <url>https://larou-francaise.com/forkids?p=kids30-4</url>
         <price>4400</price>
         <currencyId>RUR</currencyId>
         <categoryId>10020</categoryId>
         <name>Дети (30 минут) — 4 урока</name>
-        <param name="План" unit="Игровая лексика">Животные, цвета, семья.</param>
-        <param name="План" unit="Фонетика">Буквы и звуки.</param>
-        <param name="План" unit="Чтение/Письмо">Первые слова.</param>
+        <description>Уроки в игровой форме: звуки, первые слова и простые фразы.</description>
+        <param name="План" unit="Игровая лексика">Животные, семья, школа</param>
+        <param name="План" unit="Фонетика">Звуки и правильное произношение</param>
+        <param name="План" unit="Чтение/Письмо">Первые слова и фразы</param>
         <param name="Продолжительность" unit="час">2</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -448,9 +468,10 @@
         <currencyId>RUR</currencyId>
         <categoryId>10020</categoryId>
         <name>Дети (30 минут) — 8 уроков</name>
-        <param name="План" unit="Игровая лексика">Дом, еда, школа.</param>
-        <param name="План" unit="Фонетика">Слоговое чтение.</param>
-        <param name="План" unit="Чтение/Письмо">Короткие предложения.</param>
+        <description>Больше практики: слоговое чтение и короткие предложения.</description>
+        <param name="План" unit="Игровая лексика">Дом, еда, увлечения</param>
+        <param name="План" unit="Фонетика">Слоговое чтение</param>
+        <param name="План" unit="Чтение/Письмо">Короткие предложения</param>
         <param name="Продолжительность" unit="час">4</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -468,9 +489,10 @@
         <currencyId>RUR</currencyId>
         <categoryId>10020</categoryId>
         <name>Дети (30 минут) — 16 уроков</name>
-        <param name="План" unit="Игровая лексика">Природа, увлечения.</param>
-        <param name="План" unit="Фонетика">Плавное чтение.</param>
-        <param name="План" unit="Чтение/Письмо">Короткие рассказы.</param>
+        <description>Переходим к чтению рассказов и уверенной речи.</description>
+        <param name="План" unit="Игровая лексика">Природа и увлечения</param>
+        <param name="План" unit="Фонетика">Плавное чтение</param>
+        <param name="План" unit="Чтение/Письмо">Короткие рассказы</param>
         <param name="Продолжительность" unit="час">8</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -488,9 +510,10 @@
         <currencyId>RUR</currencyId>
         <categoryId>10020</categoryId>
         <name>Дети (45 минут) — 4 урока</name>
-        <param name="План" unit="Игровая лексика">Профессии, транспорт.</param>
-        <param name="План" unit="Фонетика">Мелодика речи.</param>
-        <param name="План" unit="Чтение/Письмо">Карточки и комиксы.</param>
+        <description>Игровые задания, чтение по карточкам и развитие речи.</description>
+        <param name="План" unit="Игровая лексика">Профессии, транспорт</param>
+        <param name="План" unit="Фонетика">Мелодика речи</param>
+        <param name="План" unit="Чтение/Письмо">Карточки и мини-тексты</param>
         <param name="Продолжительность" unit="час">3</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -508,9 +531,10 @@
         <currencyId>RUR</currencyId>
         <categoryId>10020</categoryId>
         <name>Дети (45 минут) — 8 уроков</name>
-        <param name="План" unit="Игровая лексика">Погода, покупки.</param>
-        <param name="План" unit="Фонетика">Интонация.</param>
-        <param name="План" unit="Чтение/Письмо">Мини-тексты.</param>
+        <description>Интонация, словарный запас и короткие истории.</description>
+        <param name="План" unit="Игровая лексика">Погода и покупки</param>
+        <param name="План" unit="Фонетика">Интонация и ритм</param>
+        <param name="План" unit="Чтение/Письмо">Мини-истории</param>
         <param name="Продолжительность" unit="час">6</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
@@ -528,9 +552,10 @@
         <currencyId>RUR</currencyId>
         <categoryId>10020</categoryId>
         <name>Дети (45 минут) — 16 уроков</name>
-        <param name="План" unit="Игровая лексика">Путешествия, праздники.</param>
-        <param name="План" unit="Фонетика">Чёткая дикция.</param>
-        <param name="План" unit="Чтение/Письмо">Небольшие рассказы.</param>
+        <description>Стабильная речь, чтение небольших текстов и расширение словаря.</description>
+        <param name="План" unit="Игровая лексика">Путешествия и праздники</param>
+        <param name="План" unit="Фонетика">Чёткая дикция</param>
+        <param name="План" unit="Чтение/Письмо">Небольшие рассказы</param>
         <param name="Продолжительность" unit="час">12</param>
         <param name="Формат обучения">С преподавателем</param>
         <param name="Есть видеокурс">false</param>
