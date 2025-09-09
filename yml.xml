@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2025-09-08 18:00">
+<yml_catalog date="2025-09-09 21:15">
   <shop>
     <name>LaRou</name>
     <company>Онлайн-школа французского языка LaRou</company>
     <url>https://larou-francaise.com/</url>
     <email>larou.francaise@gmail.com</email>
-    <!-- логотип площадки (PNG >=300x300) -->
     <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
-    <description>Онлайн-школа французского для детей и взрослых: индивидуальные, парные и корпоративные программы, подготовка к экзаменам.</description>
+    <description>Онлайн-уроки французского для взрослых и детей: индивидуально, в паре, для работы, переезда и экзаменов. Пробный урок 199 ₽.</description>
 
     <currencies>
       <currency id="RUR" rate="1"/>
@@ -15,87 +14,89 @@
 
     <offers>
 
-      <!-- ИНДИВИДУАЛЬНЫЕ (60 мин/урок) — categoryId 20003 -->
+      <!-- ИНДИВИДУАЛЬНЫЕ — categoryId 20003 -->
       <offer id="ind-4" available="true">
         <url>https://larou-francaise.com/individlesson?p=ind-4</url>
-        <price>8000</price>
+        <price>12000</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
-        <name>Индивидуальные занятия — 4 урока</name>
-        <description>Персональные уроки с преподавателем. Удобное время и индивидуальный темп. Подходит для начинающих и продолжающих.</description>
-        <param name="План" unit="Грамматика">Учимся строить фразы без ошибок</param>
-        <param name="План" unit="Лексика">200+ слов для общения и путешествий</param>
-        <param name="План" unit="Разговорная практика">Диалоги на реальные темы</param>
+        <name>Французский с преподавателем — 4 урока (индивидуально)</name>
+        <description>Быстрый старт 1 на 1: говорим с первого урока, гибкое расписание, домашние задания с проверкой.</description>
+        <param name="План" unit="Шаг 1. A1.0–A1">1–2 часа — произношение и базовые фразы</param>
+        <param name="План" unit="Шаг 2. Лексика">1 час — 200 самых частых слов</param>
+        <param name="План" unit="Шаг 3. Диалоги">1 час — простые разговорные сценарии</param>
         <param name="Продолжительность" unit="час">4</param>
         <param name="Формат обучения">С преподавателем</param>
-        <param name="Есть видеокурс">false</param>
-        <param name="Есть вебинар">false</param>
-        <param name="Есть домашние работы">true</param>
         <param name="Сложность">Для новичков</param>
         <param name="Тип обучения">Курс</param>
+        <param name="Цена по скидке">8000</param>
+        <param name="Дата окончания скидки">2025-10-31</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
       <offer id="ind-8" available="true">
         <url>https://larou-francaise.com/individlesson?p=ind-8</url>
-        <price>15000</price>
+        <price>22500</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
-        <name>Индивидуальные занятия — 8 уроков</name>
-        <description>Персональные уроки с преподавателем. Удобное время и индивидуальный темп. Подходит для начинающих и продолжающих.</description>
-        <param name="План" unit="Грамматика">Учимся строить фразы без ошибок</param>
-        <param name="План" unit="Лексика">200+ слов для общения и путешествий</param>
-        <param name="План" unit="Разговорная практика">Диалоги на реальные темы</param>
+        <name>Французский с преподавателем — 8 уроков (индивидуально)</name>
+        <description>Персональная программа под цель: больше разговорной практики и заметный прогресс за месяц.</description>
+        <param name="План" unit="Шаг 1. A1.0–A1">2–3 часа — базовая грамматика и структура фразы</param>
+        <param name="План" unit="Шаг 2. Лексика A1–A2">2–3 часа — сервис, покупки, поездки</param>
+        <param name="План" unit="Шаг 3. Разговорная практика">2–3 часа — диалоги и монологи</param>
         <param name="Продолжительность" unit="час">8</param>
         <param name="Формат обучения">С преподавателем</param>
-        <param name="Есть видеокурс">false</param>
-        <param name="Есть вебинар">false</param>
-        <param name="Есть домашние работы">true</param>
         <param name="Сложность">Для новичков</param>
         <param name="Тип обучения">Курс</param>
+        <param name="Ежемесячная цена">22500</param>
+        <param name="Ежемесячная цена по скидке">15000</param>
+        <param name="Дата окончания ежемесячной скидки">2025-10-31</param>
+        <param name="Цена по скидке">15000</param>
+        <param name="Дата окончания скидки">2025-10-31</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
       <offer id="ind-16" available="true">
         <url>https://larou-francaise.com/individlesson?p=ind-16</url>
-        <price>28800</price>
+        <price>43200</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
-        <name>Индивидуальные занятия — 16 уроков</name>
-        <description>Персональные уроки с преподавателем. Максимум практики и уверенности в речи.</description>
-        <param name="План" unit="Грамматика">Все времена A1–A2, основы B1</param>
-        <param name="План" unit="Лексика">Быт, услуги, путешествия, эмоции</param>
-        <param name="План" unit="Разговорная практика">Свободные беседы и монологи</param>
+        <name>Французский с преподавателем — 16 уроков (индивидуально)</name>
+        <description>Полный модуль на 2 месяца: ставим речь, расширяем словарь, закрепляем грамматику A1–A2 и основы B1.</description>
+        <param name="План" unit="Шаг 1. A1.0–A1">5–6 часов — произношение, базовые конструкции</param>
+        <param name="План" unit="Шаг 2. A1–A2">5–6 часов — бытовые сценарии и сервис</param>
+        <param name="План" unit="Шаг 3. A2–B1">4–6 часов — письма, аргументация, длинные ответы</param>
         <param name="Продолжительность" unit="час">16</param>
         <param name="Формат обучения">С преподавателем</param>
-        <param name="Есть видеокурс">false</param>
-        <param name="Есть вебинар">false</param>
-        <param name="Есть домашние работы">true</param>
         <param name="Сложность">Для новичков</param>
         <param name="Тип обучения">Курс</param>
+        <param name="Ежемесячная цена">21600</param>
+        <param name="Ежемесячная цена по скидке">14400</param>
+        <param name="Дата окончания ежемесячной скидки">2025-10-31</param>
+        <param name="Цена по скидке">28800</param>
+        <param name="Дата окончания скидки">2025-10-31</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
       <offer id="ind-trial" available="true">
         <url>https://larou-francaise.com/individlesson?p=ind-trial</url>
-        <price>199</price>
+        <price>299</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
-        <name>Пробный урок (индивидуальные)</name>
-        <description>Знакомство с преподавателем, мини-урок и план обучения.</description>
-        <param name="План" unit="Диагностика">Определяем уровень и цели</param>
-        <param name="План" unit="Мини-урок">Пробуем формат занятий</param>
-        <param name="План" unit="План обучения">Согласуем программу и график</param>
-        <param name="Продолжительность" unit="час">1</param>
+        <name>Пробный урок — индивидуально (30 минут)</name>
+        <description>Диагностика уровня + мини-урок. За 30 минут вы поймёте формат занятий, познакомитесь с педагогом и получите персональный план обучения.</description>
+        <param name="План" unit="Шаг 1. Диагностика">уровень, цели и ожидания</param>
+        <param name="План" unit="Шаг 2. Мини-урок">практика на вашей теме</param>
+        <param name="План" unit="Шаг 3. План">рекомендации и дорожная карта</param>
+        <param name="Продолжительность" unit="час">0.5</param>
         <param name="Формат обучения">С преподавателем</param>
-        <param name="Есть видеокурс">false</param>
-        <param name="Есть вебинар">false</param>
-        <param name="Есть домашние работы">true</param>
         <param name="Сложность">Для новичков</param>
         <param name="Тип обучения">Курс</param>
+        <param name="Цена по скидке">199</param>
+        <param name="Дата окончания скидки">2025-10-31</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
@@ -103,84 +104,86 @@
       <!-- ЭКЗАМЕНЫ — categoryId 10020 -->
       <offer id="exam-4" available="true">
         <url>https://larou-francaise.com/exams?p=exam-4</url>
-        <price>8000</price>
+        <price>12000</price>
         <currencyId>RUR</currencyId>
         <categoryId>10020</categoryId>
-        <name>Подготовка к экзаменам — 4 урока</name>
-        <description>DELF/DALF, TCF, ЕГЭ: стратегия, типовые задания и разбор ошибок.</description>
-        <param name="План" unit="Стратегия">Разбираем формат и критерии</param>
-        <param name="План" unit="Практика">Выполняем типовые задания</param>
-        <param name="План" unit="Мок-экзамен">Мини тест с проверкой</param>
+        <name>Подготовка к DELF/DALF, TCF — 4 урока</name>
+        <description>Разберём формат и критерии, потренируем типовые задания и закроем «слабые места» перед экзаменом.</description>
+        <param name="План" unit="Шаг 1. Стратегия">2 часа — структура, критерии, тайминг</param>
+        <param name="План" unit="Шаг 2. Практика">1,5 часа — задания с разбором</param>
+        <param name="План" unit="Шаг 3. Мок">0,5 часа — мини-тест и рекомендации</param>
         <param name="Продолжительность" unit="час">4</param>
         <param name="Формат обучения">С преподавателем</param>
-        <param name="Есть видеокурс">false</param>
-        <param name="Есть вебинар">false</param>
-        <param name="Есть домашние работы">true</param>
         <param name="Сложность">Для новичков</param>
         <param name="Тип обучения">Курс</param>
+        <param name="Цена по скидке">8000</param>
+        <param name="Дата окончания скидки">2025-10-31</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
       <offer id="exam-8" available="true">
         <url>https://larou-francaise.com/exams?p=exam-8</url>
-        <price>15000</price>
+        <price>22500</price>
         <currencyId>RUR</currencyId>
         <categoryId>10020</categoryId>
-        <name>Подготовка к экзаменам — 8 уроков</name>
-        <description>Глубокая тренировка всех разделов и один пробный тест.</description>
-        <param name="План" unit="Стратегия">Тактика по разделам</param>
-        <param name="План" unit="Практика">Тренажёры и домашние задания</param>
-        <param name="План" unit="Мок-экзамен">Пробный тест с обратной связью</param>
+        <name>Подготовка к DELF/DALF, TCF — 8 уроков</name>
+        <description>Системная подготовка: стратегия, тренажёры по разделам и пробный тест с детальным разбором.</description>
+        <param name="План" unit="Шаг 1. Стратегия">3 часа — тактика по разделам</param>
+        <param name="План" unit="Шаг 2. Практика">3 часа — задания + домашние</param>
+        <param name="План" unit="Шаг 3. Мок-экзамен">2 часа — пробный тест и обратная связь</param>
         <param name="Продолжительность" unit="час">8</param>
         <param name="Формат обучения">С преподавателем</param>
-        <param name="Есть видеокурс">false</param>
-        <param name="Есть вебинар">false</param>
-        <param name="Есть домашние работы">true</param>
         <param name="Сложность">Для новичков</param>
         <param name="Тип обучения">Курс</param>
+        <param name="Ежемесячная цена">22500</param>
+        <param name="Ежемесячная цена по скидке">15000</param>
+        <param name="Дата окончания ежемесячной скидки">2025-10-31</param>
+        <param name="Цена по скидке">15000</param>
+        <param name="Дата окончания скидки">2025-10-31</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
       <offer id="exam-16" available="true">
         <url>https://larou-francaise.com/exams?p=exam-16</url>
-        <price>28800</price>
+        <price>43200</price>
         <currencyId>RUR</currencyId>
         <categoryId>10020</categoryId>
-        <name>Подготовка к экзаменам — 16 уроков</name>
-        <description>Полный цикл подготовки с 2–3 «моками» и разбором критериев.</description>
-        <param name="План" unit="Стратегия">Разделы и критерии оценивания</param>
-        <param name="План" unit="Практика">Разбор типичных ошибок</param>
-        <param name="План" unit="Мок-экзамены">2–3 полных прогона</param>
+        <name>Подготовка к DELF/DALF, TCF — 16 уроков</name>
+        <description>Полный цикл: стратегия, практика по разделам и 2–3 «мока» с разбором критериев.</description>
+        <param name="План" unit="Шаг 1. Стратегия">4–5 часов — критерии и тайм-менеджмент</param>
+        <param name="План" unit="Шаг 2. Практика">7–8 часов — задания по разделам</param>
+        <param name="План" unit="Шаг 3. Мок-экзамены">3–4 часа — полные прогоны</param>
         <param name="Продолжительность" unit="час">16</param>
         <param name="Формат обучения">С преподавателем</param>
-        <param name="Есть видеокурс">false</param>
-        <param name="Есть вебинар">false</param>
-        <param name="Есть домашние работы">true</param>
         <param name="Сложность">Для новичков</param>
         <param name="Тип обучения">Курс</param>
+        <param name="Ежемесячная цена">21600</param>
+        <param name="Ежемесячная цена по скидке">14400</param>
+        <param name="Дата окончания ежемесячной скидки">2025-10-31</param>
+        <param name="Цена по скидке">28800</param>
+        <param name="Дата окончания скидки">2025-10-31</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
       <offer id="exam-trial" available="true">
         <url>https://larou-francaise.com/exams?p=exam-trial</url>
-        <price>199</price>
+        <price>299</price>
         <currencyId>RUR</currencyId>
         <categoryId>10020</categoryId>
-        <name>Пробный урок (экзамены)</name>
-        <description>Диагностика, план подготовки и рекомендации по материалам.</description>
-        <param name="План" unit="Диагностика">Определяем уровень по целевому экзамену</param>
-        <param name="План" unit="План подготовки">Составляем дорожную карту</param>
-        <param name="План" unit="Рекомендации">Материалы и режим занятий</param>
-        <param name="Продолжительность" unit="час">1</param>
+        <name>Пробный урок — подготовка к экзаменам (30 минут)</name>
+        <description>Оценим уровень, разберём цели и сделаем мини-урок по разделу. На выходе — ваш персональный план подготовки.</description>
+        <param name="План" unit="Шаг 1. Диагностика">цели и текущие навыки</param>
+        <param name="План" unit="Шаг 2. План">дорожная карта и тайминг</param>
+        <param name="План" unit="Шаг 3. Мини-урок">практика по разделу</param>
+        <param name="Продолжительность" unit="час">0.5</param>
         <param name="Формат обучения">С преподавателем</param>
-        <param name="Есть видеокурс">false</param>
-        <param name="Есть вебинар">false</param>
-        <param name="Есть домашние работы">true</param>
         <param name="Сложность">Для новичков</param>
         <param name="Тип обучения">Курс</param>
+        <param name="Цена по скидке">199</param>
+        <param name="Дата окончания скидки">2025-10-31</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
@@ -188,84 +191,86 @@
       <!-- ДЛЯ РАБОТЫ — categoryId 20003 -->
       <offer id="job-4" available="true">
         <url>https://larou-francaise.com/job?p=job-4</url>
-        <price>8000</price>
+        <price>12000</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Деловой французский — 4 урока</name>
-        <description>Письма, звонки и встречи на французском. Быстрый старт для офиса.</description>
-        <param name="План" unit="Лексика бизнеса">Собрания, звонки, small talk</param>
-        <param name="План" unit="Документы">Письма и деловая переписка</param>
-        <param name="План" unit="Переговоры">Аргументация и презентации</param>
+        <description>Выходим на французский в рабочих задачах: письма, звонки, мини-встречи — без языкового барьера.</description>
+        <param name="План" unit="Шаг 1. Лексика бизнеса">1,5–2 часа — совещания, звонки, small talk</param>
+        <param name="План" unit="Шаг 2. Документы">1–1,5 часа — письма и деловой стиль</param>
+        <param name="План" unit="Шаг 3. Переговоры">0,5–1 час — аргументация и презентации</param>
         <param name="Продолжительность" unit="час">4</param>
         <param name="Формат обучения">С преподавателем</param>
-        <param name="Есть видеокурс">false</param>
-        <param name="Есть вебинар">false</param>
-        <param name="Есть домашние работы">true</param>
         <param name="Сложность">Для новичков</param>
         <param name="Тип обучения">Курс</param>
+        <param name="Цена по скидке">8000</param>
+        <param name="Дата окончания скидки">2025-10-31</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
       <offer id="job-8" available="true">
         <url>https://larou-francaise.com/job?p=job-8</url>
-        <price>15000</price>
+        <price>22500</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Деловой французский — 8 уроков</name>
-        <description>Уверенная коммуникация в офисе: письма, звонки, мини-презентации.</description>
-        <param name="План" unit="Лексика бизнеса">Коммуникация в офисе</param>
-        <param name="План" unit="Документы">Шаблоны и кейсы</param>
-        <param name="План" unit="Переговоры">Практика сценариев</param>
+        <description>Уверенная коммуникация в офисе: письма по шаблонам, звонки и мини-презентации — на практических примерах.</description>
+        <param name="План" unit="Шаг 1. Коммуникация">3 часа — встречи и созвоны</param>
+        <param name="План" unit="Шаг 2. Документы">3 часа — структура писем</param>
+        <param name="План" unit="Шаг 3. Переговоры">2 часа — аргументация и презентации</param>
         <param name="Продолжительность" unit="час">8</param>
         <param name="Формат обучения">С преподавателем</param>
-        <param name="Есть видеокурс">false</param>
-        <param name="Есть вебинар">false</param>
-        <param name="Есть домашние работы">true</param>
         <param name="Сложность">Для новичков</param>
         <param name="Тип обучения">Курс</param>
+        <param name="Ежемесячная цена">22500</param>
+        <param name="Ежемесячная цена по скидке">15000</param>
+        <param name="Дата окончания ежемесячной скидки">2025-10-31</param>
+        <param name="Цена по скидке">15000</param>
+        <param name="Дата окончания скидки">2025-10-31</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
       <offer id="job-16" available="true">
         <url>https://larou-francaise.com/job?p=job-16</url>
-        <price>28800</price>
+        <price>43200</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Деловой французский — 16 уроков</name>
-        <description>Расширенная деловая лексика и сложные переговорные кейсы.</description>
-        <param name="План" unit="Лексика бизнеса">Специализированные темы</param>
-        <param name="План" unit="Документы">Стиль и тон письма</param>
-        <param name="План" unit="Переговоры">Сложные кейсы и презентации</param>
+        <description>Продвинутые сценарии: презентации, переговоры и сложная переписка — уверенно и без «ступора».</description>
+        <param name="План" unit="Шаг 1. Коммуникация">6 часов — митинги, звонки, small talk</param>
+        <param name="План" unit="Шаг 2. Документы">6 часов — стиль и тон писем</param>
+        <param name="План" unit="Шаг 3. Переговоры">4 часа — кейсы и выступления</param>
         <param name="Продолжительность" unit="час">16</param>
         <param name="Формат обучения">С преподавателем</param>
-        <param name="Есть видеокурс">false</param>
-        <param name="Есть вебинар">false</param>
-        <param name="Есть домашние работы">true</param>
         <param name="Сложность">Для новичков</param>
         <param name="Тип обучения">Курс</param>
+        <param name="Ежемесячная цена">21600</param>
+        <param name="Ежемесячная цена по скидке">14400</param>
+        <param name="Дата окончания ежемесячной скидки">2025-10-31</param>
+        <param name="Цена по скидке">28800</param>
+        <param name="Дата окончания скидки">2025-10-31</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
       <offer id="job-trial" available="true">
         <url>https://larou-francaise.com/job?p=job-trial</url>
-        <price>199</price>
+        <price>299</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
-        <name>Пробный урок (для работы)</name>
-        <description>Диагностика задач, мини-урок по вашим кейсам и план обучения.</description>
-        <param name="План" unit="Диагностика">Профиль задач и уровень</param>
-        <param name="План" unit="Мини-урок">Тренировка под ваши кейсы</param>
-        <param name="План" unit="План обучения">Цели и график</param>
-        <param name="Продолжительность" unit="час">1</param>
+        <name>Пробный урок — деловой французский (30 минут)</name>
+        <description>Погружаемся в ваши задачи: мини-урок по кейсам и план, как выйти на рабочий уровень.</description>
+        <param name="План" unit="Шаг 1. Диагностика">цели и профиль задач</param>
+        <param name="План" unit="Шаг 2. Мини-урок">разговор/письма под задачу</param>
+        <param name="План" unit="Шаг 3. План">обучение и материалы</param>
+        <param name="Продолжительность" unit="час">0.5</param>
         <param name="Формат обучения">С преподавателем</param>
-        <param name="Есть видеокурс">false</param>
-        <param name="Есть вебинар">false</param>
-        <param name="Есть домашние работы">true</param>
         <param name="Сложность">Для новичков</param>
         <param name="Тип обучения">Курс</param>
+        <param name="Цена по скидке">199</param>
+        <param name="Дата окончания скидки">2025-10-31</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
@@ -273,169 +278,167 @@
       <!-- ПЕРЕЕЗД — categoryId 20003 -->
       <offer id="move-4" available="true">
         <url>https://larou-francaise.com/removal?p=move-4</url>
-        <price>8000</price>
+        <price>12000</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Французский для переезда — 4 урока</name>
-        <description>Бытовые диалоги, документы и базовые сценарии для жизни во Франции.</description>
-        <param name="План" unit="Быт">Магазин, транспорт, кафе</param>
-        <param name="План" unit="Документы">Справки и формы</param>
-        <param name="План" unit="Медицина">Запись к врачу и аптека</param>
+        <description>Подготовим к жизни во Франции: бытовые диалоги, аптека, запись к врачу, оформление базовых документов.</description>
+        <param name="План" unit="Шаг 1. Быт">1,5–2 часа — магазин, кафе, транспорт</param>
+        <param name="План" unit="Шаг 2. Документы">1–1,5 часа — формы и справки</param>
+        <param name="План" unit="Шаг 3. Медицина">0,5–1 час — запись, симптомы, аптека</param>
         <param name="Продолжительность" unit="час">4</param>
         <param name="Формат обучения">С преподавателем</param>
-        <param name="Есть видеокурс">false</param>
-        <param name="Есть вебинар">false</param>
-        <param name="Есть домашние работы">true</param>
         <param name="Сложность">Для новичков</param>
         <param name="Тип обучения">Курс</param>
+        <param name="Цена по скидке">8000</param>
+        <param name="Дата окончания скидки">2025-10-31</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
       <offer id="move-8" available="true">
         <url>https://larou-francaise.com/removal?p=move-8</url>
-        <price>15000</price>
+        <price>22500</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Французский для переезда — 8 уроков</name>
-        <description>Расширенная лексика, госуслуги и сложные бытовые сценарии.</description>
-        <param name="План" unit="Быт">Расширяем повседневные темы</param>
-        <param name="План" unit="Документы">Сложные заявления</param>
-        <param name="План" unit="Медицина">Подробные диалоги</param>
+        <description>Расширим лексический запас и отработаем реальные сценарии: госуслуги, медицина, жильё — уверенно и по шагам.</description>
+        <param name="План" unit="Шаг 1. Быт">3 часа — ключевые диалоги</param>
+        <param name="План" unit="Шаг 2. Документы">3 часа — подача и заполнение</param>
+        <param name="План" unit="Шаг 3. Медицина">2 часа — запись, симптомы, аптека</param>
         <param name="Продолжительность" unit="час">8</param>
         <param name="Формат обучения">С преподавателем</param>
-        <param name="Есть видеокурс">false</param>
-        <param name="Есть вебинар">false</param>
-        <param name="Есть домашние работы">true</param>
         <param name="Сложность">Для новичков</param>
         <param name="Тип обучения">Курс</param>
+        <param name="Ежемесячная цена">22500</param>
+        <param name="Ежемесячная цена по скидке">15000</param>
+        <param name="Дата окончания ежемесячной скидки">2025-10-31</param>
+        <param name="Цена по скидке">15000</param>
+        <param name="Дата окончания скидки">2025-10-31</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
       <offer id="move-16" available="true">
         <url>https://larou-francaise.com/removal?p=move-16</url>
-        <price>28800</price>
+        <price>43200</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
         <name>Французский для переезда — 16 уроков</name>
-        <description>Полная подготовка ко всем жизненным ситуациям: быт, медицина, госуслуги.</description>
-        <param name="План" unit="Быт">Полный набор сценариев</param>
-        <param name="План" unit="Документы">Глубокая практика</param>
-        <param name="План" unit="Коммуникация">Свободная речь</param>
+        <description>Комплекс на 2 месяца: бытовая речь, госуслуги, медицина и свободное общение без «ступора».</description>
+        <param name="План" unit="Шаг 1. Быт">6 часов — повседневные сценарии</param>
+        <param name="План" unit="Шаг 2. Документы">5 часов — формы, визиты, ответы</param>
+        <param name="План" unit="Шаг 3. Коммуникация">5 часов — разговорная уверенность</param>
         <param name="Продолжительность" unit="час">16</param>
         <param name="Формат обучения">С преподавателем</param>
-        <param name="Есть видеокурс">false</param>
-        <param name="Есть вебинар">false</param>
-        <param name="Есть домашние работы">true</param>
         <param name="Сложность">Для новичков</param>
         <param name="Тип обучения">Курс</param>
+        <param name="Ежемесячная цена">21600</param>
+        <param name="Ежемесячная цена по скидке">14400</param>
+        <param name="Дата окончания ежемесячной скидки">2025-10-31</param>
+        <param name="Цена по скидке">28800</param>
+        <param name="Дата окончания скидки">2025-10-31</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
       <offer id="move-trial" available="true">
         <url>https://larou-francaise.com/removal?p=move-trial</url>
-        <price>199</price>
+        <price>299</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
-        <name>Пробный урок (для переезда)</name>
-        <description>Диагностика задач, мини-урок по бытовым диалогам и план переезда.</description>
-        <param name="План" unit="Диагностика">Цели, опыт, маршрут</param>
-        <param name="План" unit="Мини-урок">Жизненные диалоги</param>
-        <param name="План" unit="План обучения">Роадмап на 1–3 месяца</param>
-        <param name="Продолжительность" unit="час">1</param>
+        <name>Пробный урок — французский для переезда (30 минут)</name>
+        <description>Оценим задачи переезда, проведём мини-урок и дадим пошаговый план на 1–3 месяца.</description>
+        <param name="План" unit="Шаг 1. Диагностика">маршрут, цели, опыт</param>
+        <param name="План" unit="Шаг 2. Мини-урок">типовые диалоги</param>
+        <param name="План" unit="Шаг 3. План">роадмап и материалы</param>
+        <param name="Продолжительность" unit="час">0.5</param>
         <param name="Формат обучения">С преподавателем</param>
-        <param name="Есть видеокурс">false</param>
-        <param name="Есть вебинар">false</param>
-        <param name="Есть домашние работы">true</param>
         <param name="Сложность">Для новичков</param>
         <param name="Тип обучения">Курс</param>
+        <param name="Цена по скидке">199</param>
+        <param name="Дата окончания скидки">2025-10-31</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
-      <!-- ПАРНЫЕ (60 мин/урок) — categoryId 20003 -->
+      <!-- ПАРНЫЕ — categoryId 20003 -->
       <offer id="pair-a1" available="true">
         <url>https://larou-francaise.com/grouplessons?p=pair-a1</url>
-        <price>10300</price>
+        <price>15450</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
-        <name>Парные занятия — с 0 до уверенного A1 (8 уроков)</name>
-        <description>Учитесь вдвоём: взаимная поддержка и практика диалогов на уровне A1.</description>
-        <param name="План" unit="Грамматика A1">Базовые конструкции</param>
-        <param name="План" unit="Лексика A1">Бытовые темы</param>
-        <param name="План" unit="Разговорная практика">Диалоги в парах</param>
+        <name>Французский в паре — уровень A1 (8 уроков)</name>
+        <description>Учитесь вдвоём: поддержка напарника, игровые диалоги и быстрый прогресс на старте.</description>
+        <param name="План" unit="Шаг 1. Грамматика A1">3–4 часа — базовые конструкции</param>
+        <param name="План" unit="Шаг 2. Лексика A1">2–3 часа — бытовые темы</param>
+        <param name="План" unit="Шаг 3. Разговорная практика">1–2 часа — диалоги в парах</param>
         <param name="Продолжительность" unit="час">8</param>
         <param name="Формат обучения">С преподавателем</param>
-        <param name="Есть видеокурс">false</param>
-        <param name="Есть вебинар">false</param>
-        <param name="Есть домашние работы">true</param>
         <param name="Сложность">Для новичков</param>
         <param name="Тип обучения">Курс</param>
+        <param name="Цена по скидке">10300</param>
+        <param name="Дата окончания скидки">2025-10-31</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
       <offer id="pair-a2" available="true">
         <url>https://larou-francaise.com/grouplessons?p=pair-a2</url>
-        <price>10300</price>
+        <price>15450</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
-        <name>Парные занятия — с A1 до уверенного A2 (8 уроков)</name>
-        <description>Практика для уровня A2: прошедшее/будущее и темы сервиса, путешествий.</description>
-        <param name="План" unit="Грамматика A2">Прошедшее/будущее, модальные</param>
-        <param name="План" unit="Лексика A2">Сервисы, путешествия</param>
-        <param name="План" unit="Разговорная практика">Импровизация</param>
+        <name>Французский в паре — уровень A2 (8 уроков)</name>
+        <description>Отрабатываем прошедшее/будущее время и сценарии сервиса, путешествий, покупок.</description>
+        <param name="План" unit="Шаг 1. Грамматика A2">3–4 часа — времена и модальные</param>
+        <param name="План" unit="Шаг 2. Лексика A2">2–3 часа — сервисы, поездки</param>
+        <param name="План" unit="Шаг 3. Разговорная практика">1–2 часа — импровизация</param>
         <param name="Продолжительность" unit="час">8</param>
         <param name="Формат обучения">С преподавателем</param>
-        <param name="Есть видеокурс">false</param>
-        <param name="Есть вебинар">false</param>
-        <param name="Есть домашние работы">true</param>
         <param name="Сложность">Для новичков</param>
         <param name="Тип обучения">Курс</param>
+        <param name="Цена по скидке">10300</param>
+        <param name="Дата окончания скидки">2025-10-31</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
       <offer id="pair-b1" available="true">
         <url>https://larou-francaise.com/grouplessons?p=pair-b1</url>
-        <price>10300</price>
+        <price>15450</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
-        <name>Парные занятия — с A2 до уверенного B1 (8 уроков)</name>
-        <description>Выходим на уверенный B1: сложнее грамматика и свободные обсуждения.</description>
-        <param name="План" unit="Грамматика B1">Сложные конструкции</param>
-        <param name="План" unit="Лексика B1">Работа/учёба, эмоции</param>
-        <param name="План" unit="Разговорная практика">Обсуждения и мнения</param>
+        <name>Французский в паре — уровень B1 (8 уроков)</name>
+        <description>Свободнее говорим и спорим: сложнее грамматика, больше практики и длиннее ответы.</description>
+        <param name="План" unit="Шаг 1. Грамматика B1">3–4 часа — сложные конструкции</param>
+        <param name="План" unit="Шаг 2. Лексика B1">2–3 часа — работа/учёба, эмоции</param>
+        <param name="План" unit="Шаг 3. Разговорная практика">1–2 часа — обсуждения и мнения</param>
         <param name="Продолжительность" unit="час">8</param>
         <param name="Формат обучения">С преподавателем</param>
-        <param name="Есть видеокурс">false</param>
-        <param name="Есть вебинар">false</param>
-        <param name="Есть домашние работы">true</param>
         <param name="Сложность">Для новичков</param>
         <param name="Тип обучения">Курс</param>
+        <param name="Цена по скидке">10300</param>
+        <param name="Дата окончания скидки">2025-10-31</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
       <offer id="pair-b2" available="true">
         <url>https://larou-francaise.com/grouplessons?p=pair-b2</url>
-        <price>10300</price>
+        <price>15450</price>
         <currencyId>RUR</currencyId>
         <categoryId>20003</categoryId>
-        <name>Парные занятия — с B1 до уверенного B2 (8 уроков)</name>
-        <description>Закрепляем B2: дискуссии, презентации и устойчивая речь.</description>
-        <param name="План" unit="Грамматика B2">Оттенки значений</param>
-        <param name="План" unit="Лексика B2">Дискуссии и презентации</param>
-        <param name="План" unit="Разговорная практика">Свободная речь</param>
+        <name>Французский в паре — уровень B2 (8 уроков)</name>
+        <description>Закрепляем уверенный уровень: дискуссии, презентации и «живая» речь без пауз.</description>
+        <param name="План" unit="Шаг 1. Грамматика B2">3–4 часа — оттенки значений</param>
+        <param name="План" unit="Шаг 2. Лексика B2">2–3 часа — дискуссии и презентации</param>
+        <param name="План" unit="Шаг 3. Разговорная практика">1–2 часа — свободная речь</param>
         <param name="Продолжительность" unit="час">8</param>
         <param name="Формат обучения">С преподавателем</param>
-        <param name="Есть видеокурс">false</param>
-        <param name="Есть вебинар">false</param>
-        <param name="Есть домашние работы">true</param>
         <param name="Сложность">Для новичков</param>
         <param name="Тип обучения">Курс</param>
+        <param name="Цена по скидке">10300</param>
+        <param name="Дата окончания скидки">2025-10-31</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
@@ -443,126 +446,120 @@
       <!-- ДЕТИ — categoryId 10020 -->
       <offer id="kids30-4" available="true">
         <url>https://larou-francaise.com/forkids?p=kids30-4</url>
-        <price>4400</price>
+        <price>6600</price>
         <currencyId>RUR</currencyId>
         <categoryId>10020</categoryId>
-        <name>Дети (30 минут) — 4 урока</name>
-        <description>Уроки в игровой форме: звуки, первые слова и простые фразы.</description>
-        <param name="План" unit="Игровая лексика">Животные, семья, школа</param>
-        <param name="План" unit="Фонетика">Звуки и правильное произношение</param>
-        <param name="План" unit="Чтение/Письмо">Первые слова и фразы</param>
+        <name>Французский для детей 6+ — 4 урока по 30 минут</name>
+        <description>Игровые занятия с педагогом: звуки, первые слова и уверенность в речи. Подходит с нуля.</description>
+        <param name="План" unit="Шаг 1. Игровая лексика">1 час — семья, школа, любимые вещи</param>
+        <param name="План" unit="Шаг 2. Фонетика">0,5–1 час — звуки и ритм речи</param>
+        <param name="План" unit="Шаг 3. Диалоги">0,5–1 час — простые фразы</param>
         <param name="Продолжительность" unit="час">2</param>
         <param name="Формат обучения">С преподавателем</param>
-        <param name="Есть видеокурс">false</param>
-        <param name="Есть вебинар">false</param>
-        <param name="Есть домашние работы">true</param>
         <param name="Сложность">Для новичков</param>
         <param name="Тип обучения">Курс</param>
+        <param name="Цена по скидке">4400</param>
+        <param name="Дата окончания скидки">2025-10-31</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
       <offer id="kids30-8" available="true">
         <url>https://larou-francaise.com/forkids?p=kids30-8</url>
-        <price>8400</price>
+        <price>12600</price>
         <currencyId>RUR</currencyId>
         <categoryId>10020</categoryId>
-        <name>Дети (30 минут) — 8 уроков</name>
-        <description>Больше практики: слоговое чтение и короткие предложения.</description>
-        <param name="План" unit="Игровая лексика">Дом, еда, увлечения</param>
-        <param name="План" unit="Фонетика">Слоговое чтение</param>
-        <param name="План" unit="Чтение/Письмо">Короткие предложения</param>
+        <name>Французский для детей 6+ — 8 уроков по 30 минут</name>
+        <description>Больше практики: слоговое чтение, мини-фразы и уверенное общение в простых ситуациях.</description>
+        <param name="План" unit="Шаг 1. Лексика">1,5–2 часа — дом, еда, увлечения</param>
+        <param name="План" unit="Шаг 2. Фонетика">1–1,5 часа — плавное чтение</param>
+        <param name="План" unit="Шаг 3. Чтение/Письмо">1–1,5 часа — короткие предложения</param>
         <param name="Продолжительность" unit="час">4</param>
         <param name="Формат обучения">С преподавателем</param>
-        <param name="Есть видеокурс">false</param>
-        <param name="Есть вебинар">false</param>
-        <param name="Есть домашние работы">true</param>
         <param name="Сложность">Для новичков</param>
         <param name="Тип обучения">Курс</param>
+        <param name="Цена по скидке">8400</param>
+        <param name="Дата окончания скидки">2025-10-31</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
       <offer id="kids30-16" available="true">
         <url>https://larou-francaise.com/forkids?p=kids30-16</url>
-        <price>16600</price>
+        <price>24900</price>
         <currencyId>RUR</currencyId>
         <categoryId>10020</categoryId>
-        <name>Дети (30 минут) — 16 уроков</name>
-        <description>Переходим к чтению рассказов и уверенной речи.</description>
-        <param name="План" unit="Игровая лексика">Природа и увлечения</param>
-        <param name="План" unit="Фонетика">Плавное чтение</param>
-        <param name="План" unit="Чтение/Письмо">Короткие рассказы</param>
+        <name>Французский для детей 6+ — 16 уроков по 30 минут</name>
+        <description>Выходим на плавное чтение и связную речь: расширяем словарь и уверенность ребёнка.</description>
+        <param name="План" unit="Шаг 1. Лексика">3 часа — природа, эмоции, праздники</param>
+        <param name="План" unit="Шаг 2. Фонетика">2 часа — дикция и интонация</param>
+        <param name="План" unit="Шаг 3. Чтение/Письмо">3 часа — короткие рассказы</param>
         <param name="Продолжительность" unit="час">8</param>
         <param name="Формат обучения">С преподавателем</param>
-        <param name="Есть видеокурс">false</param>
-        <param name="Есть вебинар">false</param>
-        <param name="Есть домашние работы">true</param>
         <param name="Сложность">Для новичков</param>
         <param name="Тип обучения">Курс</param>
+        <param name="Цена по скидке">16600</param>
+        <param name="Дата окончания скидки">2025-10-31</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
       <offer id="kids45-4" available="true">
         <url>https://larou-francaise.com/forkids?p=kids45-4</url>
-        <price>6500</price>
+        <price>9750</price>
         <currencyId>RUR</currencyId>
         <categoryId>10020</categoryId>
-        <name>Дети (45 минут) — 4 урока</name>
-        <description>Игровые задания, чтение по карточкам и развитие речи.</description>
-        <param name="План" unit="Игровая лексика">Профессии, транспорт</param>
-        <param name="План" unit="Фонетика">Мелодика речи</param>
-        <param name="План" unit="Чтение/Письмо">Карточки и мини-тексты</param>
+        <name>Французский для детей 6+ — 4 урока по 45 минут</name>
+        <description>Игровые задания, карточки и диалоги: закрепляем слух, произношение и словарный запас.</description>
+        <param name="План" unit="Шаг 1. Лексика">1–1,5 часа — профессии и транспорт</param>
+        <param name="План" unit="Шаг 2. Фонетика">1–1,5 часа — мелодика речи</param>
+        <param name="План" unit="Шаг 3. Диалоги">0,5–1 час — мини-истории</param>
         <param name="Продолжительность" unit="час">3</param>
         <param name="Формат обучения">С преподавателем</param>
-        <param name="Есть видеокурс">false</param>
-        <param name="Есть вебинар">false</param>
-        <param name="Есть домашние работы">true</param>
         <param name="Сложность">Для новичков</param>
         <param name="Тип обучения">Курс</param>
+        <param name="Цена по скидке">6500</param>
+        <param name="Дата окончания скидки">2025-10-31</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
       <offer id="kids45-8" available="true">
         <url>https://larou-francaise.com/forkids?p=kids45-8</url>
-        <price>11200</price>
+        <price>16800</price>
         <currencyId>RUR</currencyId>
         <categoryId>10020</categoryId>
-        <name>Дети (45 минут) — 8 уроков</name>
-        <description>Интонация, словарный запас и короткие истории.</description>
-        <param name="План" unit="Игровая лексика">Погода и покупки</param>
-        <param name="План" unit="Фонетика">Интонация и ритм</param>
-        <param name="План" unit="Чтение/Письмо">Мини-истории</param>
+        <name>Французский для детей 6+ — 8 уроков по 45 минут</name>
+        <description>Ставим интонацию и учимся пересказывать истории — ребёнок начинает говорить увереннее.</description>
+        <param name="План" unit="Шаг 1. Лексика">2–2,5 часа — погода, покупки, досуг</param>
+        <param name="План" unit="Шаг 2. Фонетика">1,5–2 часа — ритм и интонация</param>
+        <param name="План" unit="Шаг 3. Чтение/Письмо">1,5 часа — мини-истории</param>
         <param name="Продолжительность" unit="час">6</param>
         <param name="Формат обучения">С преподавателем</param>
-        <param name="Есть видеокурс">false</param>
-        <param name="Есть вебинар">false</param>
-        <param name="Есть домашние работы">true</param>
         <param name="Сложность">Для новичков</param>
         <param name="Тип обучения">Курс</param>
+        <param name="Цена по скидке">11200</param>
+        <param name="Дата окончания скидки">2025-10-31</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
       <offer id="kids45-16" available="true">
         <url>https://larou-francaise.com/forkids?p=kids45-16</url>
-        <price>21700</price>
+        <price>32550</price>
         <currencyId>RUR</currencyId>
         <categoryId>10020</categoryId>
-        <name>Дети (45 минут) — 16 уроков</name>
-        <description>Стабильная речь, чтение небольших текстов и расширение словаря.</description>
-        <param name="План" unit="Игровая лексика">Путешествия и праздники</param>
-        <param name="План" unit="Фонетика">Чёткая дикция</param>
-        <param name="План" unit="Чтение/Письмо">Небольшие рассказы</param>
+        <name>Французский для детей 6+ — 16 уроков по 45 минут</name>
+        <description>Устойчивая речь и чтение небольших текстов: расширяем словарь и уверенность ребёнка.</description>
+        <param name="План" unit="Шаг 1. Лексика">4–5 часов — путешествия и праздники</param>
+        <param name="План" unit="Шаг 2. Фонетика">3–4 часа — чёткая дикция</param>
+        <param name="План" unit="Шаг 3. Чтение/Письмо">3–4 часа — небольшие рассказы</param>
         <param name="Продолжительность" unit="час">12</param>
         <param name="Формат обучения">С преподавателем</param>
-        <param name="Есть видеокурс">false</param>
-        <param name="Есть вебинар">false</param>
-        <param name="Есть домашние работы">true</param>
         <param name="Сложность">Для новичков</param>
         <param name="Тип обучения">Курс</param>
+        <param name="Цена по скидке">21700</param>
+        <param name="Дата окончания скидки">2025-10-31</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
