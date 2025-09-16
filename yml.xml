@@ -81,26 +81,6 @@
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
-      <offer id="ind-trial" available="true">
-        <url>https://larou-francaise.com/individlesson?p=ind-trial</url>
-        <price>299</price>
-        <currencyId>RUR</currencyId>
-        <categoryId>20003</categoryId>
-        <name>Пробный урок — индивидуально (30 минут)</name>
-        <description>Диагностика уровня + мини-урок. За 30 минут вы поймёте формат занятий, познакомитесь с педагогом и получите персональный план обучения.</description>
-        <param name="План" unit="Шаг 1. Диагностика">уровень, цели и ожидания</param>
-        <param name="План" unit="Шаг 2. Мини-урок">практика на вашей теме</param>
-        <param name="План" unit="Шаг 3. План">рекомендации и дорожная карта</param>
-        <param name="Продолжительность" unit="час">0,5</param>
-        <param name="Формат обучения">С преподавателем</param>
-        <param name="Сложность">Для новичков</param>
-        <param name="Тип обучения">Курс</param>
-        <param name="Цена по скидке">199</param>
-        <param name="Дата окончания скидки">2025-10-31</param>
-        <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
-        <store>false</store><pickup>false</pickup><delivery>false</delivery>
-      </offer>
-
       <!-- ЭКЗАМЕНЫ — categoryId 10020 -->
       <offer id="exam-4" available="true">
         <url>https://larou-francaise.com/exams?p=exam-4</url>
@@ -163,26 +143,6 @@
         <param name="Ежемесячная цена по скидке">14400</param>
         <param name="Дата окончания ежемесячной скидки">2025-10-31</param>
         <param name="Цена по скидке">28800</param>
-        <param name="Дата окончания скидки">2025-10-31</param>
-        <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
-        <store>false</store><pickup>false</pickup><delivery>false</delivery>
-      </offer>
-
-      <offer id="exam-trial" available="true">
-        <url>https://larou-francaise.com/exams?p=exam-trial</url>
-        <price>299</price>
-        <currencyId>RUR</currencyId>
-        <categoryId>10020</categoryId>
-        <name>Пробный урок — подготовка к экзаменам (30 минут)</name>
-        <description>Оценим уровень, разберём цели и сделаем мини-урок по разделу. На выходе — ваш персональный план подготовки.</description>
-        <param name="План" unit="Шаг 1. Диагностика">цели и текущие навыки</param>
-        <param name="План" unit="Шаг 2. План">дорожная карта и тайминг</param>
-        <param name="План" unit="Шаг 3. Мини-урок">практика по разделу</param>
-        <param name="Продолжительность" unit="час">0,5</param>
-        <param name="Формат обучения">С преподавателем</param>
-        <param name="Сложность">Для новичков</param>
-        <param name="Тип обучения">Курс</param>
-        <param name="Цена по скидке">199</param>
         <param name="Дата окончания скидки">2025-10-31</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
@@ -255,26 +215,6 @@
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
 
-      <offer id="job-trial" available="true">
-        <url>https://larou-francaise.com/job?p=job-trial</url>
-        <price>299</price>
-        <currencyId>RUR</currencyId>
-        <categoryId>20003</categoryId>
-        <name>Пробный урок — деловой французский (30 минут)</name>
-        <description>Погружаемся в ваши задачи: мини-урок по кейсам и план, как выйти на рабочий уровень.</description>
-        <param name="План" unit="Шаг 1. Диагностика">цели и профиль задач</param>
-        <param name="План" unit="Шаг 2. Мини-урок">разговор/письма под задачу</param>
-        <param name="План" unit="Шаг 3. План">обучение и материалы</param>
-        <param name="Продолжительность" unit="час">0,5</param>
-        <param name="Формат обучения">С преподавателем</param>
-        <param name="Сложность">Для новичков</param>
-        <param name="Тип обучения">Курс</param>
-        <param name="Цена по скидке">199</param>
-        <param name="Дата окончания скидки">2025-10-31</param>
-        <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
-        <store>false</store><pickup>false</pickup><delivery>false</delivery>
-      </offer>
-
       <!-- ПЕРЕЕЗД — categoryId 20003 -->
       <offer id="move-4" available="true">
         <url>https://larou-francaise.com/removal?p=move-4</url>
@@ -337,26 +277,6 @@
         <param name="Ежемесячная цена по скидке">14400</param>
         <param name="Дата окончания ежемесячной скидки">2025-10-31</param>
         <param name="Цена по скидке">28800</param>
-        <param name="Дата окончания скидки">2025-10-31</param>
-        <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
-        <store>false</store><pickup>false</pickup><delivery>false</delivery>
-      </offer>
-
-      <offer id="move-trial" available="true">
-        <url>https://larou-francaise.com/removal?p=move-trial</url>
-        <price>299</price>
-        <currencyId>RUR</currencyId>
-        <categoryId>20003</categoryId>
-        <name>Пробный урок — французский для переезда (30 минут)</name>
-        <description>Оценим задачи переезда, проведём мини-урок и дадим пошаговый план на 1–3 месяца.</description>
-        <param name="План" unit="Шаг 1. Диагностика">маршрут, цели, опыт</param>
-        <param name="План" unit="Шаг 2. Мини-урок">типовые диалоги</param>
-        <param name="План" unit="Шаг 3. План">роадмап и материалы</param>
-        <param name="Продолжительность" unit="час">0,5</param>
-        <param name="Формат обучения">С преподавателем</param>
-        <param name="Сложность">Для новичков</param>
-        <param name="Тип обучения">Курс</param>
-        <param name="Цена по скидке">199</param>
         <param name="Дата окончания скидки">2025-10-31</param>
         <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
         <store>false</store><pickup>false</pickup><delivery>false</delivery>
@@ -567,5 +487,6 @@
     </offers>
   </shop>
 </yml_catalog>
+
 
 
