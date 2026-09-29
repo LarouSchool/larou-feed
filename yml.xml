@@ -1,492 +1,276 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2025-09-11 9:50">
+<?xml version='1.0' encoding='utf-8'?>
+<yml_catalog date="2026-09-30 00:16">
+  <!-- LaRou. Цены сверены со страницами на 30.09.2026. Тарифы с 05.10.2026 не применены. -->
   <shop>
     <name>LaRou</name>
-    <company>Онлайн-школа французского языка LaRou</company>
-    <url>https://larou-francaise.com/</url>
+    <company>ИП Демина Анастасия Сергеевна</company>
+    <url>https://larou-school.com/</url>
     <email>larou.francaise@gmail.com</email>
     <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
-    <description>Онлайн-уроки французского для взрослых и детей: индивидуально, в паре, для работы, переезда и экзаменов. Пробный урок 199 ₽.</description>
-
+    <description>Онлайн-школа французского, английского и китайского языков для взрослых и детей. Индивидуальные занятия с преподавателем, персональная программа и гибкое расписание.</description>
     <currencies>
-      <currency id="RUR" rate="1"/>
+      <currency id="RUR" rate="1" />
     </currencies>
-
+    <categories>
+      <category id="20003">Французский язык</category>
+      <category id="20001">Английский язык</category>
+      <category id="20006">Китайский язык</category>
+    </categories>
+    <sets>
+      <set id="s-fr">
+        <name>Французский язык онлайн</name>
+        <url>https://larou-school.com/francuzskiy-yazyk/</url>
+      </set>
+      <set id="s-en">
+        <name>Английский язык онлайн</name>
+        <url>https://larou-school.com/angliyskiy-yazyk/</url>
+      </set>
+      <set id="s-zh">
+        <name>Китайский язык онлайн</name>
+        <url>https://larou-school.com/kitayskiy-yazyk/</url>
+      </set>
+    </sets>
     <offers>
-
-      <!-- ИНДИВИДУАЛЬНЫЕ — categoryId 20003 -->
       <offer id="ind-4" available="true">
-        <url>https://larou-francaise.com/individlesson?p=ind-4</url>
-        <price>12000</price>
-        <currencyId>RUR</currencyId>
+        <name>Французский индивидуально: 4 онлайн-урока по 60 минут</name>
+        <url>https://larou-school.com/francuzskiy-yazyk/individualnye-zanyatiya/?utm_source=yandex&amp;utm_medium=organic&amp;utm_campaign=education_feed&amp;utm_content=ind-4</url>
         <categoryId>20003</categoryId>
-        <name>Французский с преподавателем — 4 урока (индивидуально)</name>
-        <description>Быстрый старт 1 на 1: говорим с первого урока, гибкое расписание, домашние задания с проверкой.</description>
-        <param name="План" unit="Шаг 1. A1.0–A1">1–2 часа — произношение и базовые фразы</param>
-        <param name="План" unit="Шаг 2. Лексика">1 час — 200 самых частых слов</param>
-        <param name="План" unit="Шаг 3. Диалоги">1 час — простые разговорные сценарии</param>
+        <set-ids>s-fr</set-ids>
+        <price>8000</price>
+        <currencyId>RUR</currencyId>
+        <description>Индивидуальные занятия по французскому языку для начинающих и продолжающих. Преподаватель подбирает материал под ваш уровень и цель. Удобное расписание, интерактивные задания и обратная связь. Стоимость указана за пакет из 4 занятий по 60 минут, а не за достижение полного языкового уровня. Темы каждого занятия определяет преподаватель по индивидуальному плану. Оставьте заявку на сайте, чтобы подобрать программу и расписание.</description>
         <param name="Продолжительность" unit="час">4</param>
+        <param name="План" unit="Занятие 1" hours="1" order="1">Работа с материалами по индивидуальной программе французского языка. Учебный материал и задания выбираются преподавателем по уровню и целям ученика.</param>
+        <param name="План" unit="Занятие 2" hours="1" order="2">Работа с материалами по индивидуальной программе французского языка. Продолжение индивидуальной программы: работа с выбранным материалом и объяснения преподавателя.</param>
+        <param name="План" unit="Занятие 3" hours="1" order="3">Работа с материалами по индивидуальной программе французского языка. Практика по индивидуальному плану и обратная связь по выполненным заданиям.</param>
+        <param name="План" unit="Занятие 4" hours="1" order="4">Работа с материалами по индивидуальной программе французского языка. Продолжение работы по программе и обратная связь для дальнейшего обучения.</param>
         <param name="Формат обучения">С преподавателем</param>
-        <param name="Сложность">Для новичков</param>
         <param name="Тип обучения">Курс</param>
-        <param name="Цена по скидке">8000</param>
-        <param name="Дата окончания скидки">2025-10-31</param>
-        <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
-        <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
-
-      <offer id="ind-8" available="true">
-        <url>https://larou-francaise.com/individlesson?p=ind-8</url>
-        <price>22500</price>
-        <currencyId>RUR</currencyId>
-        <categoryId>20003</categoryId>
-        <name>Французский с преподавателем — 8 уроков (индивидуально)</name>
-        <description>Персональная программа под цель: больше разговорной практики и заметный прогресс за месяц.</description>
-        <param name="План" unit="Шаг 1. A1.0–A1">2–3 часа — базовая грамматика и структура фразы</param>
-        <param name="План" unit="Шаг 2. Лексика A1–A2">2–3 часа — сервис, покупки, поездки</param>
-        <param name="План" unit="Шаг 3. Разговорная практика">2–3 часа — диалоги и монологи</param>
-        <param name="Продолжительность" unit="час">8</param>
-        <param name="Формат обучения">С преподавателем</param>
-        <param name="Сложность">Для новичков</param>
-        <param name="Тип обучения">Курс</param>
-        <param name="Ежемесячная цена">22500</param>
-        <param name="Ежемесячная цена по скидке">15000</param>
-        <param name="Дата окончания ежемесячной скидки">2025-10-31</param>
-        <param name="Цена по скидке">15000</param>
-        <param name="Дата окончания скидки">2025-10-31</param>
-        <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
-        <store>false</store><pickup>false</pickup><delivery>false</delivery>
-      </offer>
-
-      <offer id="ind-16" available="true">
-        <url>https://larou-francaise.com/individlesson?p=ind-16</url>
-        <price>43200</price>
-        <currencyId>RUR</currencyId>
-        <categoryId>20003</categoryId>
-        <name>Французский с преподавателем — 16 уроков (индивидуально)</name>
-        <description>Полный модуль на 2 месяца: ставим речь, расширяем словарь, закрепляем грамматику A1–A2 и основы B1.</description>
-        <param name="План" unit="Шаг 1. A1.0–A1">5–6 часов — произношение, базовые конструкции</param>
-        <param name="План" unit="Шаг 2. A1–A2">5–6 часов — бытовые сценарии и сервис</param>
-        <param name="План" unit="Шаг 3. A2–B1">4–6 часов — письма, аргументация, длинные ответы</param>
-        <param name="Продолжительность" unit="час">16</param>
-        <param name="Формат обучения">С преподавателем</param>
-        <param name="Сложность">Для новичков</param>
-        <param name="Тип обучения">Курс</param>
-        <param name="Ежемесячная цена">21600</param>
-        <param name="Ежемесячная цена по скидке">14400</param>
-        <param name="Дата окончания ежемесячной скидки">2025-10-31</param>
-        <param name="Цена по скидке">28800</param>
-        <param name="Дата окончания скидки">2025-10-31</param>
-        <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
-        <store>false</store><pickup>false</pickup><delivery>false</delivery>
-      </offer>
-
-      <!-- ЭКЗАМЕНЫ — categoryId 10020 -->
-      <offer id="exam-4" available="true">
-        <url>https://larou-francaise.com/exams?p=exam-4</url>
-        <price>12000</price>
-        <currencyId>RUR</currencyId>
-        <categoryId>10020</categoryId>
-        <name>Подготовка к DELF/DALF, TCF — 4 урока</name>
-        <description>Разберём формат и критерии, потренируем типовые задания и закроем «слабые места» перед экзаменом.</description>
-        <param name="План" unit="Шаг 1. Стратегия">2 часа — структура, критерии, тайминг</param>
-        <param name="План" unit="Шаг 2. Практика">1,5 часа — задания с разбором</param>
-        <param name="План" unit="Шаг 3. Мок">0,5 часа — мини-тест и рекомендации</param>
-        <param name="Продолжительность" unit="час">4</param>
-        <param name="Формат обучения">С преподавателем</param>
-        <param name="Сложность">Для новичков</param>
-        <param name="Тип обучения">Курс</param>
-        <param name="Цена по скидке">8000</param>
-        <param name="Дата окончания скидки">2025-10-31</param>
-        <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
-        <store>false</store><pickup>false</pickup><delivery>false</delivery>
-      </offer>
-
-      <offer id="exam-8" available="true">
-        <url>https://larou-francaise.com/exams?p=exam-8</url>
-        <price>22500</price>
-        <currencyId>RUR</currencyId>
-        <categoryId>10020</categoryId>
-        <name>Подготовка к DELF/DALF, TCF — 8 уроков</name>
-        <description>Системная подготовка: стратегия, тренажёры по разделам и пробный тест с детальным разбором.</description>
-        <param name="План" unit="Шаг 1. Стратегия">3 часа — тактика по разделам</param>
-        <param name="План" unit="Шаг 2. Практика">3 часа — задания + домашние</param>
-        <param name="План" unit="Шаг 3. Мок-экзамен">2 часа — пробный тест и обратная связь</param>
-        <param name="Продолжительность" unit="час">8</param>
-        <param name="Формат обучения">С преподавателем</param>
-        <param name="Сложность">Для новичков</param>
-        <param name="Тип обучения">Курс</param>
-        <param name="Ежемесячная цена">22500</param>
-        <param name="Ежемесячная цена по скидке">15000</param>
-        <param name="Дата окончания ежемесячной скидки">2025-10-31</param>
-        <param name="Цена по скидке">15000</param>
-        <param name="Дата окончания скидки">2025-10-31</param>
-        <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
-        <store>false</store><pickup>false</pickup><delivery>false</delivery>
-      </offer>
-
-      <offer id="exam-16" available="true">
-        <url>https://larou-francaise.com/exams?p=exam-16</url>
-        <price>43200</price>
-        <currencyId>RUR</currencyId>
-        <categoryId>10020</categoryId>
-        <name>Подготовка к DELF/DALF, TCF — 16 уроков</name>
-        <description>Полный цикл: стратегия, практика по разделам и 2–3 «мока» с разбором критериев.</description>
-        <param name="План" unit="Шаг 1. Стратегия">4–5 часов — критерии и тайм-менеджмент</param>
-        <param name="План" unit="Шаг 2. Практика">7–8 часов — задания по разделам</param>
-        <param name="План" unit="Шаг 3. Мок-экзамены">3–4 часа — полные прогоны</param>
-        <param name="Продолжительность" unit="час">16</param>
-        <param name="Формат обучения">С преподавателем</param>
-        <param name="Сложность">Для новичков</param>
-        <param name="Тип обучения">Курс</param>
-        <param name="Ежемесячная цена">21600</param>
-        <param name="Ежемесячная цена по скидке">14400</param>
-        <param name="Дата окончания ежемесячной скидки">2025-10-31</param>
-        <param name="Цена по скидке">28800</param>
-        <param name="Дата окончания скидки">2025-10-31</param>
-        <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
-        <store>false</store><pickup>false</pickup><delivery>false</delivery>
-      </offer>
-
-      <!-- ДЛЯ РАБОТЫ — categoryId 20003 -->
-      <offer id="job-4" available="true">
-        <url>https://larou-francaise.com/job?p=job-4</url>
-        <price>12000</price>
-        <currencyId>RUR</currencyId>
-        <categoryId>20003</categoryId>
-        <name>Деловой французский — 4 урока</name>
-        <description>Выходим на французский в рабочих задачах: письма, звонки, мини-встречи — без языкового барьера.</description>
-        <param name="План" unit="Шаг 1. Лексика бизнеса">1,5–2 часа — совещания, звонки, small talk</param>
-        <param name="План" unit="Шаг 2. Документы">1–1,5 часа — письма и деловой стиль</param>
-        <param name="План" unit="Шаг 3. Переговоры">0,5–1 час — аргументация и презентации</param>
-        <param name="Продолжительность" unit="час">4</param>
-        <param name="Формат обучения">С преподавателем</param>
-        <param name="Сложность">Для новичков</param>
-        <param name="Тип обучения">Курс</param>
-        <param name="Цена по скидке">8000</param>
-        <param name="Дата окончания скидки">2025-10-31</param>
-        <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
-        <store>false</store><pickup>false</pickup><delivery>false</delivery>
-      </offer>
-
-      <offer id="job-8" available="true">
-        <url>https://larou-francaise.com/job?p=job-8</url>
-        <price>22500</price>
-        <currencyId>RUR</currencyId>
-        <categoryId>20003</categoryId>
-        <name>Деловой французский — 8 уроков</name>
-        <description>Уверенная коммуникация в офисе: письма по шаблонам, звонки и мини-презентации — на практических примерах.</description>
-        <param name="План" unit="Шаг 1. Коммуникация">3 часа — встречи и созвоны</param>
-        <param name="План" unit="Шаг 2. Документы">3 часа — структура писем</param>
-        <param name="План" unit="Шаг 3. Переговоры">2 часа — аргументация и презентации</param>
-        <param name="Продолжительность" unit="час">8</param>
-        <param name="Формат обучения">С преподавателем</param>
-        <param name="Сложность">Для новичков</param>
-        <param name="Тип обучения">Курс</param>
-        <param name="Ежемесячная цена">22500</param>
-        <param name="Ежемесячная цена по скидке">15000</param>
-        <param name="Дата окончания ежемесячной скидки">2025-10-31</param>
-        <param name="Цена по скидке">15000</param>
-        <param name="Дата окончания скидки">2025-10-31</param>
-        <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
-        <store>false</store><pickup>false</pickup><delivery>false</delivery>
-      </offer>
-
-      <offer id="job-16" available="true">
-        <url>https://larou-francaise.com/job?p=job-16</url>
-        <price>43200</price>
-        <currencyId>RUR</currencyId>
-        <categoryId>20003</categoryId>
-        <name>Деловой французский — 16 уроков</name>
-        <description>Продвинутые сценарии: презентации, переговоры и сложная переписка — уверенно и без «ступора».</description>
-        <param name="План" unit="Шаг 1. Коммуникация">6 часов — митинги, звонки, small talk</param>
-        <param name="План" unit="Шаг 2. Документы">6 часов — стиль и тон писем</param>
-        <param name="План" unit="Шаг 3. Переговоры">4 часа — кейсы и выступления</param>
-        <param name="Продолжительность" unit="час">16</param>
-        <param name="Формат обучения">С преподавателем</param>
-        <param name="Сложность">Для новичков</param>
-        <param name="Тип обучения">Курс</param>
-        <param name="Ежемесячная цена">21600</param>
-        <param name="Ежемесячная цена по скидке">14400</param>
-        <param name="Дата окончания ежемесячной скидки">2025-10-31</param>
-        <param name="Цена по скидке">28800</param>
-        <param name="Дата окончания скидки">2025-10-31</param>
-        <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
-        <store>false</store><pickup>false</pickup><delivery>false</delivery>
-      </offer>
-
-      <!-- ПЕРЕЕЗД — categoryId 20003 -->
-      <offer id="move-4" available="true">
-        <url>https://larou-francaise.com/removal?p=move-4</url>
-        <price>12000</price>
-        <currencyId>RUR</currencyId>
-        <categoryId>20003</categoryId>
-        <name>Французский для переезда — 4 урока</name>
-        <description>Подготовим к жизни во Франции: бытовые диалоги, аптека, запись к врачу, оформление базовых документов.</description>
-        <param name="План" unit="Шаг 1. Быт">1,5–2 часа — магазин, кафе, транспорт</param>
-        <param name="План" unit="Шаг 2. Документы">1–1,5 часа — формы и справки</param>
-        <param name="План" unit="Шаг 3. Медицина">0,5–1 час — запись, симптомы, аптека</param>
-        <param name="Продолжительность" unit="час">4</param>
-        <param name="Формат обучения">С преподавателем</param>
-        <param name="Сложность">Для новичков</param>
-        <param name="Тип обучения">Курс</param>
-        <param name="Цена по скидке">8000</param>
-        <param name="Дата окончания скидки">2025-10-31</param>
-        <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
-        <store>false</store><pickup>false</pickup><delivery>false</delivery>
-      </offer>
-
-      <offer id="move-8" available="true">
-        <url>https://larou-francaise.com/removal?p=move-8</url>
-        <price>22500</price>
-        <currencyId>RUR</currencyId>
-        <categoryId>20003</categoryId>
-        <name>Французский для переезда — 8 уроков</name>
-        <description>Расширим лексический запас и отработаем реальные сценарии: госуслуги, медицина, жильё — уверенно и по шагам.</description>
-        <param name="План" unit="Шаг 1. Быт">3 часа — ключевые диалоги</param>
-        <param name="План" unit="Шаг 2. Документы">3 часа — подача и заполнение</param>
-        <param name="План" unit="Шаг 3. Медицина">2 часа — запись, симптомы, аптека</param>
-        <param name="Продолжительность" unit="час">8</param>
-        <param name="Формат обучения">С преподавателем</param>
-        <param name="Сложность">Для новичков</param>
-        <param name="Тип обучения">Курс</param>
-        <param name="Ежемесячная цена">22500</param>
-        <param name="Ежемесячная цена по скидке">15000</param>
-        <param name="Дата окончания ежемесячной скидки">2025-10-31</param>
-        <param name="Цена по скидке">15000</param>
-        <param name="Дата окончания скидки">2025-10-31</param>
-        <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
-        <store>false</store><pickup>false</pickup><delivery>false</delivery>
-      </offer>
-
-      <offer id="move-16" available="true">
-        <url>https://larou-francaise.com/removal?p=move-16</url>
-        <price>43200</price>
-        <currencyId>RUR</currencyId>
-        <categoryId>20003</categoryId>
-        <name>Французский для переезда — 16 уроков</name>
-        <description>Комплекс на 2 месяца: бытовая речь, госуслуги, медицина и свободное общение без «ступора».</description>
-        <param name="План" unit="Шаг 1. Быт">6 часов — повседневные сценарии</param>
-        <param name="План" unit="Шаг 2. Документы">5 часов — формы, визиты, ответы</param>
-        <param name="План" unit="Шаг 3. Коммуникация">5 часов — разговорная уверенность</param>
-        <param name="Продолжительность" unit="час">16</param>
-        <param name="Формат обучения">С преподавателем</param>
-        <param name="Сложность">Для новичков</param>
-        <param name="Тип обучения">Курс</param>
-        <param name="Ежемесячная цена">21600</param>
-        <param name="Ежемесячная цена по скидке">14400</param>
-        <param name="Дата окончания ежемесячной скидки">2025-10-31</param>
-        <param name="Цена по скидке">28800</param>
-        <param name="Дата окончания скидки">2025-10-31</param>
-        <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
-        <store>false</store><pickup>false</pickup><delivery>false</delivery>
-      </offer>
-
-      <!-- ПАРНЫЕ — categoryId 20003 -->
-      <offer id="pair-a1" available="true">
-        <url>https://larou-francaise.com/grouplessons?p=pair-a1</url>
-        <price>15450</price>
-        <currencyId>RUR</currencyId>
-        <categoryId>20003</categoryId>
-        <name>Французский в паре — уровень A1 (8 уроков)</name>
-        <description>Учитесь вдвоём: поддержка напарника, игровые диалоги и быстрый прогресс на старте.</description>
-        <param name="План" unit="Шаг 1. Грамматика A1">3–4 часа — базовые конструкции</param>
-        <param name="План" unit="Шаг 2. Лексика A1">2–3 часа — бытовые темы</param>
-        <param name="План" unit="Шаг 3. Разговорная практика">1–2 часа — диалоги в парах</param>
-        <param name="Продолжительность" unit="час">8</param>
-        <param name="Формат обучения">С преподавателем</param>
-        <param name="Сложность">Для новичков</param>
-        <param name="Тип обучения">Курс</param>
-        <param name="Цена по скидке">10300</param>
-        <param name="Дата окончания скидки">2025-10-31</param>
-        <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
-        <store>false</store><pickup>false</pickup><delivery>false</delivery>
-      </offer>
-
-      <offer id="pair-a2" available="true">
-        <url>https://larou-francaise.com/grouplessons?p=pair-a2</url>
-        <price>15450</price>
-        <currencyId>RUR</currencyId>
-        <categoryId>20003</categoryId>
-        <name>Французский в паре — уровень A2 (8 уроков)</name>
-        <description>Отрабатываем прошедшее/будущее время и сценарии сервиса, путешествий, покупок.</description>
-        <param name="План" unit="Шаг 1. Грамматика A2">3–4 часа — времена и модальные</param>
-        <param name="План" unit="Шаг 2. Лексика A2">2–3 часа — сервисы, поездки</param>
-        <param name="План" unit="Шаг 3. Разговорная практика">1–2 часа — импровизация</param>
-        <param name="Продолжительность" unit="час">8</param>
-        <param name="Формат обучения">С преподавателем</param>
-        <param name="Сложность">Для новичков</param>
-        <param name="Тип обучения">Курс</param>
-        <param name="Цена по скидке">10300</param>
-        <param name="Дата окончания скидки">2025-10-31</param>
-        <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
-        <store>false</store><pickup>false</pickup><delivery>false</delivery>
-      </offer>
-
-      <offer id="pair-b1" available="true">
-        <url>https://larou-francaise.com/grouplessons?p=pair-b1</url>
-        <price>15450</price>
-        <currencyId>RUR</currencyId>
-        <categoryId>20003</categoryId>
-        <name>Французский в паре — уровень B1 (8 уроков)</name>
-        <description>Свободнее говорим и спорим: сложнее грамматика, больше практики и длиннее ответы.</description>
-        <param name="План" unit="Шаг 1. Грамматика B1">3–4 часа — сложные конструкции</param>
-        <param name="План" unit="Шаг 2. Лексика B1">2–3 часа — работа/учёба, эмоции</param>
-        <param name="План" unit="Шаг 3. Разговорная практика">1–2 часа — обсуждения и мнения</param>
-        <param name="Продолжительность" unit="час">8</param>
-        <param name="Формат обучения">С преподавателем</param>
-        <param name="Сложность">Для новичков</param>
-        <param name="Тип обучения">Курс</param>
-        <param name="Цена по скидке">10300</param>
-        <param name="Дата окончания скидки">2025-10-31</param>
-        <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
-        <store>false</store><pickup>false</pickup><delivery>false</delivery>
-      </offer>
-
-      <offer id="pair-b2" available="true">
-        <url>https://larou-francaise.com/grouplessons?p=pair-b2</url>
-        <price>15450</price>
-        <currencyId>RUR</currencyId>
-        <categoryId>20003</categoryId>
-        <name>Французский в паре — уровень B2 (8 уроков)</name>
-        <description>Закрепляем уверенный уровень: дискуссии, презентации и «живая» речь без пауз.</description>
-        <param name="План" unit="Шаг 1. Грамматика B2">3–4 часа — оттенки значений</param>
-        <param name="План" unit="Шаг 2. Лексика B2">2–3 часа — дискуссии и презентации</param>
-        <param name="План" unit="Шаг 3. Разговорная практика">1–2 часа — свободная речь</param>
-        <param name="Продолжительность" unit="час">8</param>
-        <param name="Формат обучения">С преподавателем</param>
-        <param name="Сложность">Для новичков</param>
-        <param name="Тип обучения">Курс</param>
-        <param name="Цена по скидке">10300</param>
-        <param name="Дата окончания скидки">2025-10-31</param>
-        <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
-        <store>false</store><pickup>false</pickup><delivery>false</delivery>
-      </offer>
-
-      <!-- ДЕТИ — categoryId 10020 -->
       <offer id="kids30-4" available="true">
-        <url>https://larou-francaise.com/forkids?p=kids30-4</url>
-        <price>6600</price>
+        <name>Французский для детей: 4 онлайн-урока по 30 минут</name>
+        <url>https://larou-school.com/francuzskiy-yazyk/zanyatiya-dlya-detey/?utm_source=yandex&amp;utm_medium=organic&amp;utm_campaign=education_feed&amp;utm_content=kids30-4</url>
+        <categoryId>20003</categoryId>
+        <set-ids>s-fr</set-ids>
+        <price>4400</price>
         <currencyId>RUR</currencyId>
-        <categoryId>10020</categoryId>
-        <name>Французский для детей 6+ — 4 урока по 30 минут</name>
-        <description>Игровые занятия с педагогом: звуки, первые слова и уверенность в речи. Подходит с нуля.</description>
-        <param name="План" unit="Шаг 1. Игровая лексика">1 час — семья, школа, любимые вещи</param>
-        <param name="План" unit="Шаг 2. Фонетика">0,5–1 час — звуки и ритм речи</param>
-        <param name="План" unit="Шаг 3. Диалоги">0,5–1 час — простые фразы</param>
+        <description>Индивидуальные занятия по французскому языку для детей. Короткие уроки с игровыми заданиями и интерактивными материалами. Преподаватель учитывает возраст, уровень и темп ребенка. Стоимость указана за пакет из 4 занятий по 30 минут, а не за достижение полного языкового уровня. Темы каждого занятия определяет преподаватель по индивидуальному плану. Оставьте заявку на сайте, чтобы подобрать программу и расписание.</description>
         <param name="Продолжительность" unit="час">2</param>
+        <param name="План" unit="Занятие 1" hours="0.5" order="1">Индивидуальное занятие по французскому языку в игровом формате с интерактивными материалами. Учебный материал и задания выбираются преподавателем по уровню и целям ученика.</param>
+        <param name="План" unit="Занятие 2" hours="0.5" order="2">Индивидуальное занятие по французскому языку в игровом формате с интерактивными материалами. Продолжение индивидуальной программы: работа с выбранным материалом и объяснения преподавателя.</param>
+        <param name="План" unit="Занятие 3" hours="0.5" order="3">Индивидуальное занятие по французскому языку в игровом формате с интерактивными материалами. Практика по индивидуальному плану и обратная связь по выполненным заданиям.</param>
+        <param name="План" unit="Занятие 4" hours="0.5" order="4">Индивидуальное занятие по французскому языку в игровом формате с интерактивными материалами. Продолжение работы по программе и обратная связь для дальнейшего обучения.</param>
         <param name="Формат обучения">С преподавателем</param>
-        <param name="Сложность">Для новичков</param>
         <param name="Тип обучения">Курс</param>
-        <param name="Цена по скидке">4400</param>
-        <param name="Дата окончания скидки">2025-10-31</param>
-        <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
-        <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
-
-      <offer id="kids30-8" available="true">
-        <url>https://larou-francaise.com/forkids?p=kids30-8</url>
-        <price>12600</price>
+      <offer id="job-4" available="true">
+        <name>Французский для работы: 4 онлайн-урока по 60 минут</name>
+        <url>https://larou-school.com/francuzskiy-yazyk/obuchenie-dlya-raboty-i-karery/?utm_source=yandex&amp;utm_medium=organic&amp;utm_campaign=education_feed&amp;utm_content=job-4</url>
+        <categoryId>20003</categoryId>
+        <set-ids>s-fr</set-ids>
+        <price>8000</price>
         <currencyId>RUR</currencyId>
-        <categoryId>10020</categoryId>
-        <name>Французский для детей 6+ — 8 уроков по 30 минут</name>
-        <description>Больше практики: слоговое чтение, мини-фразы и уверенное общение в простых ситуациях.</description>
-        <param name="План" unit="Шаг 1. Лексика">1,5–2 часа — дом, еда, увлечения</param>
-        <param name="План" unit="Шаг 2. Фонетика">1–1,5 часа — плавное чтение</param>
-        <param name="План" unit="Шаг 3. Чтение/Письмо">1–1,5 часа — короткие предложения</param>
+        <description>Индивидуальные занятия по французскому для общения с коллегами и партнерами. Программа под ваши рабочие задачи и текущий уровень, практика с преподавателем и гибкое расписание. Стоимость указана за пакет из 4 занятий по 60 минут, а не за достижение полного языкового уровня. Темы каждого занятия определяет преподаватель по индивидуальному плану. Оставьте заявку на сайте, чтобы подобрать программу и расписание.</description>
         <param name="Продолжительность" unit="час">4</param>
+        <param name="План" unit="Занятие 1" hours="1" order="1">Индивидуальное занятие по французскому языку с учетом рабочих задач ученика. Учебный материал и задания выбираются преподавателем по уровню и целям ученика.</param>
+        <param name="План" unit="Занятие 2" hours="1" order="2">Индивидуальное занятие по французскому языку с учетом рабочих задач ученика. Продолжение индивидуальной программы: работа с выбранным материалом и объяснения преподавателя.</param>
+        <param name="План" unit="Занятие 3" hours="1" order="3">Индивидуальное занятие по французскому языку с учетом рабочих задач ученика. Практика по индивидуальному плану и обратная связь по выполненным заданиям.</param>
+        <param name="План" unit="Занятие 4" hours="1" order="4">Индивидуальное занятие по французскому языку с учетом рабочих задач ученика. Продолжение работы по программе и обратная связь для дальнейшего обучения.</param>
         <param name="Формат обучения">С преподавателем</param>
-        <param name="Сложность">Для новичков</param>
         <param name="Тип обучения">Курс</param>
-        <param name="Цена по скидке">8400</param>
-        <param name="Дата окончания скидки">2025-10-31</param>
-        <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
-        <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
-
-      <offer id="kids30-16" available="true">
-        <url>https://larou-francaise.com/forkids?p=kids30-16</url>
-        <price>24900</price>
+      <offer id="move-4" available="true">
+        <name>Французский для переезда: 4 онлайн-урока по 60 минут</name>
+        <url>https://larou-school.com/francuzskiy-yazyk/obuchenie-dlya-pereezda-zagranicu/?utm_source=yandex&amp;utm_medium=organic&amp;utm_campaign=education_feed&amp;utm_content=move-4</url>
+        <categoryId>20003</categoryId>
+        <set-ids>s-fr</set-ids>
+        <price>8000</price>
         <currencyId>RUR</currencyId>
-        <categoryId>10020</categoryId>
-        <name>Французский для детей 6+ — 16 уроков по 30 минут</name>
-        <description>Выходим на плавное чтение и связную речь: расширяем словарь и уверенность ребёнка.</description>
-        <param name="План" unit="Шаг 1. Лексика">3 часа — природа, эмоции, праздники</param>
-        <param name="План" unit="Шаг 2. Фонетика">2 часа — дикция и интонация</param>
-        <param name="План" unit="Шаг 3. Чтение/Письмо">3 часа — короткие рассказы</param>
-        <param name="Продолжительность" unit="час">8</param>
+        <description>Индивидуальные занятия по французскому для жизни за границей. Работа над языковыми навыками для повседневного общения и адаптации. Темп и программа подбираются под ваш уровень и задачи переезда. Стоимость указана за пакет из 4 занятий по 60 минут, а не за достижение полного языкового уровня. Темы каждого занятия определяет преподаватель по индивидуальному плану. Оставьте заявку на сайте, чтобы подобрать программу и расписание.</description>
+        <param name="Продолжительность" unit="час">4</param>
+        <param name="План" unit="Занятие 1" hours="1" order="1">Индивидуальное занятие по французскому языку с учетом задач переезда и жизни за границей. Учебный материал и задания выбираются преподавателем по уровню и целям ученика.</param>
+        <param name="План" unit="Занятие 2" hours="1" order="2">Индивидуальное занятие по французскому языку с учетом задач переезда и жизни за границей. Продолжение индивидуальной программы: работа с выбранным материалом и объяснения преподавателя.</param>
+        <param name="План" unit="Занятие 3" hours="1" order="3">Индивидуальное занятие по французскому языку с учетом задач переезда и жизни за границей. Практика по индивидуальному плану и обратная связь по выполненным заданиям.</param>
+        <param name="План" unit="Занятие 4" hours="1" order="4">Индивидуальное занятие по французскому языку с учетом задач переезда и жизни за границей. Продолжение работы по программе и обратная связь для дальнейшего обучения.</param>
         <param name="Формат обучения">С преподавателем</param>
-        <param name="Сложность">Для новичков</param>
         <param name="Тип обучения">Курс</param>
-        <param name="Цена по скидке">16600</param>
-        <param name="Дата окончания скидки">2025-10-31</param>
-        <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
-        <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
-
-      <offer id="kids45-4" available="true">
-        <url>https://larou-francaise.com/forkids?p=kids45-4</url>
-        <price>9750</price>
+      <offer id="exam-4" available="true">
+        <name>Французский: подготовка к экзаменам, 4 урока по 60 минут</name>
+        <url>https://larou-school.com/francuzskiy-yazyk/obuchenie-dlya-sdachi-ekzamenov/?utm_source=yandex&amp;utm_medium=organic&amp;utm_campaign=education_feed&amp;utm_content=exam-4</url>
+        <categoryId>20003</categoryId>
+        <set-ids>s-fr</set-ids>
+        <price>8000</price>
         <currencyId>RUR</currencyId>
-        <categoryId>10020</categoryId>
-        <name>Французский для детей 6+ — 4 урока по 45 минут</name>
-        <description>Игровые задания, карточки и диалоги: закрепляем слух, произношение и словарный запас.</description>
-        <param name="План" unit="Шаг 1. Лексика">1–1,5 часа — профессии и транспорт</param>
-        <param name="План" unit="Шаг 2. Фонетика">1–1,5 часа — мелодика речи</param>
-        <param name="План" unit="Шаг 3. Диалоги">0,5–1 час — мини-истории</param>
-        <param name="Продолжительность" unit="час">3</param>
+        <description>Индивидуальные занятия по французскому для учебы и подготовки к выбранному экзамену. Преподаватель подбирает задания и программу с учетом текущего уровня, цели и срока подготовки. Стоимость указана за пакет из 4 занятий по 60 минут, а не за достижение полного языкового уровня. Темы каждого занятия определяет преподаватель по индивидуальному плану. Оставьте заявку на сайте, чтобы подобрать программу и расписание.</description>
+        <param name="Продолжительность" unit="час">4</param>
+        <param name="План" unit="Занятие 1" hours="1" order="1">Индивидуальное занятие по французскому языку с учетом учебной цели и выбранного экзамена. Учебный материал и задания выбираются преподавателем по уровню и целям ученика.</param>
+        <param name="План" unit="Занятие 2" hours="1" order="2">Индивидуальное занятие по французскому языку с учетом учебной цели и выбранного экзамена. Продолжение индивидуальной программы: работа с выбранным материалом и объяснения преподавателя.</param>
+        <param name="План" unit="Занятие 3" hours="1" order="3">Индивидуальное занятие по французскому языку с учетом учебной цели и выбранного экзамена. Практика по индивидуальному плану и обратная связь по выполненным заданиям.</param>
+        <param name="План" unit="Занятие 4" hours="1" order="4">Индивидуальное занятие по французскому языку с учетом учебной цели и выбранного экзамена. Продолжение работы по программе и обратная связь для дальнейшего обучения.</param>
         <param name="Формат обучения">С преподавателем</param>
-        <param name="Сложность">Для новичков</param>
         <param name="Тип обучения">Курс</param>
-        <param name="Цена по скидке">6500</param>
-        <param name="Дата окончания скидки">2025-10-31</param>
-        <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
-        <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
-
-      <offer id="kids45-8" available="true">
-        <url>https://larou-francaise.com/forkids?p=kids45-8</url>
-        <price>16800</price>
+      <offer id="en-ind-4" available="true">
+        <name>Английский индивидуально: 4 онлайн-урока по 60 минут</name>
+        <url>https://larou-school.com/angliyskiy-yazyk/individualnye-zanyatiya/?utm_source=yandex&amp;utm_medium=organic&amp;utm_campaign=education_feed&amp;utm_content=en-ind-4</url>
+        <categoryId>20001</categoryId>
+        <set-ids>s-en</set-ids>
+        <price>8000</price>
         <currencyId>RUR</currencyId>
-        <categoryId>10020</categoryId>
-        <name>Французский для детей 6+ — 8 уроков по 45 минут</name>
-        <description>Ставим интонацию и учимся пересказывать истории — ребёнок начинает говорить увереннее.</description>
-        <param name="План" unit="Шаг 1. Лексика">2–2,5 часа — погода, покупки, досуг</param>
-        <param name="План" unit="Шаг 2. Фонетика">1,5–2 часа — ритм и интонация</param>
-        <param name="План" unit="Шаг 3. Чтение/Письмо">1,5 часа — мини-истории</param>
-        <param name="Продолжительность" unit="час">6</param>
+        <description>Индивидуальные занятия по английскому языку для начинающих и продолжающих. Преподаватель подбирает материал под ваш уровень и цель. Удобное расписание, интерактивные задания и обратная связь. Стоимость указана за пакет из 4 занятий по 60 минут, а не за достижение полного языкового уровня. Темы каждого занятия определяет преподаватель по индивидуальному плану. Оставьте заявку на сайте, чтобы подобрать программу и расписание.</description>
+        <param name="Продолжительность" unit="час">4</param>
+        <param name="План" unit="Занятие 1" hours="1" order="1">Работа с материалами по индивидуальной программе английского языка. Учебный материал и задания выбираются преподавателем по уровню и целям ученика.</param>
+        <param name="План" unit="Занятие 2" hours="1" order="2">Работа с материалами по индивидуальной программе английского языка. Продолжение индивидуальной программы: работа с выбранным материалом и объяснения преподавателя.</param>
+        <param name="План" unit="Занятие 3" hours="1" order="3">Работа с материалами по индивидуальной программе английского языка. Практика по индивидуальному плану и обратная связь по выполненным заданиям.</param>
+        <param name="План" unit="Занятие 4" hours="1" order="4">Работа с материалами по индивидуальной программе английского языка. Продолжение работы по программе и обратная связь для дальнейшего обучения.</param>
         <param name="Формат обучения">С преподавателем</param>
-        <param name="Сложность">Для новичков</param>
         <param name="Тип обучения">Курс</param>
-        <param name="Цена по скидке">11200</param>
-        <param name="Дата окончания скидки">2025-10-31</param>
-        <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
-        <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
-
-      <offer id="kids45-16" available="true">
-        <url>https://larou-francaise.com/forkids?p=kids45-16</url>
-        <price>32550</price>
+      <offer id="en-kids30-4" available="true">
+        <name>Английский для детей: 4 онлайн-урока по 30 минут</name>
+        <url>https://larou-school.com/angliyskiy-yazyk/zanyatiya-dlya-detey/?utm_source=yandex&amp;utm_medium=organic&amp;utm_campaign=education_feed&amp;utm_content=en-kids30-4</url>
+        <categoryId>20001</categoryId>
+        <set-ids>s-en</set-ids>
+        <price>4400</price>
         <currencyId>RUR</currencyId>
-        <categoryId>10020</categoryId>
-        <name>Французский для детей 6+ — 16 уроков по 45 минут</name>
-        <description>Устойчивая речь и чтение небольших текстов: расширяем словарь и уверенность ребёнка.</description>
-        <param name="План" unit="Шаг 1. Лексика">4–5 часов — путешествия и праздники</param>
-        <param name="План" unit="Шаг 2. Фонетика">3–4 часа — чёткая дикция</param>
-        <param name="План" unit="Шаг 3. Чтение/Письмо">3–4 часа — небольшие рассказы</param>
-        <param name="Продолжительность" unit="час">12</param>
+        <description>Индивидуальные занятия по английскому языку для детей. Короткие уроки с игровыми заданиями и интерактивными материалами. Преподаватель учитывает возраст, уровень и темп ребенка. Стоимость указана за пакет из 4 занятий по 30 минут, а не за достижение полного языкового уровня. Темы каждого занятия определяет преподаватель по индивидуальному плану. Оставьте заявку на сайте, чтобы подобрать программу и расписание.</description>
+        <param name="Продолжительность" unit="час">2</param>
+        <param name="План" unit="Занятие 1" hours="0.5" order="1">Индивидуальное занятие по английскому языку в игровом формате с интерактивными материалами. Учебный материал и задания выбираются преподавателем по уровню и целям ученика.</param>
+        <param name="План" unit="Занятие 2" hours="0.5" order="2">Индивидуальное занятие по английскому языку в игровом формате с интерактивными материалами. Продолжение индивидуальной программы: работа с выбранным материалом и объяснения преподавателя.</param>
+        <param name="План" unit="Занятие 3" hours="0.5" order="3">Индивидуальное занятие по английскому языку в игровом формате с интерактивными материалами. Практика по индивидуальному плану и обратная связь по выполненным заданиям.</param>
+        <param name="План" unit="Занятие 4" hours="0.5" order="4">Индивидуальное занятие по английскому языку в игровом формате с интерактивными материалами. Продолжение работы по программе и обратная связь для дальнейшего обучения.</param>
         <param name="Формат обучения">С преподавателем</param>
-        <param name="Сложность">Для новичков</param>
         <param name="Тип обучения">Курс</param>
-        <param name="Цена по скидке">21700</param>
-        <param name="Дата окончания скидки">2025-10-31</param>
-        <picture>https://static.tildacdn.com/tild3565-6430-4937-b039-616531373832/_2.png</picture>
-        <store>false</store><pickup>false</pickup><delivery>false</delivery>
       </offer>
-
+      <offer id="en-job-4" available="true">
+        <name>Английский для работы: 4 онлайн-урока по 60 минут</name>
+        <url>https://larou-school.com/angliyskiy-yazyk/obuchenie-dlya-raboty-i-karery/?utm_source=yandex&amp;utm_medium=organic&amp;utm_campaign=education_feed&amp;utm_content=en-job-4</url>
+        <categoryId>20001</categoryId>
+        <set-ids>s-en</set-ids>
+        <price>8000</price>
+        <currencyId>RUR</currencyId>
+        <description>Индивидуальные занятия по английскому для общения с коллегами и партнерами. Программа под ваши рабочие задачи и текущий уровень, практика с преподавателем и гибкое расписание. Стоимость указана за пакет из 4 занятий по 60 минут, а не за достижение полного языкового уровня. Темы каждого занятия определяет преподаватель по индивидуальному плану. Оставьте заявку на сайте, чтобы подобрать программу и расписание.</description>
+        <param name="Продолжительность" unit="час">4</param>
+        <param name="План" unit="Занятие 1" hours="1" order="1">Индивидуальное занятие по английскому языку с учетом рабочих задач ученика. Учебный материал и задания выбираются преподавателем по уровню и целям ученика.</param>
+        <param name="План" unit="Занятие 2" hours="1" order="2">Индивидуальное занятие по английскому языку с учетом рабочих задач ученика. Продолжение индивидуальной программы: работа с выбранным материалом и объяснения преподавателя.</param>
+        <param name="План" unit="Занятие 3" hours="1" order="3">Индивидуальное занятие по английскому языку с учетом рабочих задач ученика. Практика по индивидуальному плану и обратная связь по выполненным заданиям.</param>
+        <param name="План" unit="Занятие 4" hours="1" order="4">Индивидуальное занятие по английскому языку с учетом рабочих задач ученика. Продолжение работы по программе и обратная связь для дальнейшего обучения.</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Тип обучения">Курс</param>
+      </offer>
+      <offer id="en-move-4" available="true">
+        <name>Английский для переезда: 4 онлайн-урока по 60 минут</name>
+        <url>https://larou-school.com/angliyskiy-yazyk/obuchenie-dlya-pereezda-zagranicu/?utm_source=yandex&amp;utm_medium=organic&amp;utm_campaign=education_feed&amp;utm_content=en-move-4</url>
+        <categoryId>20001</categoryId>
+        <set-ids>s-en</set-ids>
+        <price>8000</price>
+        <currencyId>RUR</currencyId>
+        <description>Индивидуальные занятия по английскому для жизни за границей. Работа над языковыми навыками для повседневного общения и адаптации. Темп и программа подбираются под ваш уровень и задачи переезда. Стоимость указана за пакет из 4 занятий по 60 минут, а не за достижение полного языкового уровня. Темы каждого занятия определяет преподаватель по индивидуальному плану. Оставьте заявку на сайте, чтобы подобрать программу и расписание.</description>
+        <param name="Продолжительность" unit="час">4</param>
+        <param name="План" unit="Занятие 1" hours="1" order="1">Индивидуальное занятие по английскому языку с учетом задач переезда и жизни за границей. Учебный материал и задания выбираются преподавателем по уровню и целям ученика.</param>
+        <param name="План" unit="Занятие 2" hours="1" order="2">Индивидуальное занятие по английскому языку с учетом задач переезда и жизни за границей. Продолжение индивидуальной программы: работа с выбранным материалом и объяснения преподавателя.</param>
+        <param name="План" unit="Занятие 3" hours="1" order="3">Индивидуальное занятие по английскому языку с учетом задач переезда и жизни за границей. Практика по индивидуальному плану и обратная связь по выполненным заданиям.</param>
+        <param name="План" unit="Занятие 4" hours="1" order="4">Индивидуальное занятие по английскому языку с учетом задач переезда и жизни за границей. Продолжение работы по программе и обратная связь для дальнейшего обучения.</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Тип обучения">Курс</param>
+      </offer>
+      <offer id="en-exam-4" available="true">
+        <name>Английский: подготовка к экзаменам, 4 урока по 60 минут</name>
+        <url>https://larou-school.com/angliyskiy-yazyk/obuchenie-dlya-sdachi-ekzamenov/?utm_source=yandex&amp;utm_medium=organic&amp;utm_campaign=education_feed&amp;utm_content=en-exam-4</url>
+        <categoryId>20001</categoryId>
+        <set-ids>s-en</set-ids>
+        <price>8000</price>
+        <currencyId>RUR</currencyId>
+        <description>Индивидуальные занятия по английскому для учебы и подготовки к выбранному экзамену. Преподаватель подбирает задания и программу с учетом текущего уровня, цели и срока подготовки. Стоимость указана за пакет из 4 занятий по 60 минут, а не за достижение полного языкового уровня. Темы каждого занятия определяет преподаватель по индивидуальному плану. Оставьте заявку на сайте, чтобы подобрать программу и расписание.</description>
+        <param name="Продолжительность" unit="час">4</param>
+        <param name="План" unit="Занятие 1" hours="1" order="1">Индивидуальное занятие по английскому языку с учетом учебной цели и выбранного экзамена. Учебный материал и задания выбираются преподавателем по уровню и целям ученика.</param>
+        <param name="План" unit="Занятие 2" hours="1" order="2">Индивидуальное занятие по английскому языку с учетом учебной цели и выбранного экзамена. Продолжение индивидуальной программы: работа с выбранным материалом и объяснения преподавателя.</param>
+        <param name="План" unit="Занятие 3" hours="1" order="3">Индивидуальное занятие по английскому языку с учетом учебной цели и выбранного экзамена. Практика по индивидуальному плану и обратная связь по выполненным заданиям.</param>
+        <param name="План" unit="Занятие 4" hours="1" order="4">Индивидуальное занятие по английскому языку с учетом учебной цели и выбранного экзамена. Продолжение работы по программе и обратная связь для дальнейшего обучения.</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Тип обучения">Курс</param>
+      </offer>
+      <offer id="zh-ind-4" available="true">
+        <name>Китайский индивидуально: 4 онлайн-урока по 60 минут</name>
+        <url>https://larou-school.com/kitayskiy-yazyk/individualnye-zanyatiya/?utm_source=yandex&amp;utm_medium=organic&amp;utm_campaign=education_feed&amp;utm_content=zh-ind-4</url>
+        <categoryId>20006</categoryId>
+        <set-ids>s-zh</set-ids>
+        <price>8000</price>
+        <currencyId>RUR</currencyId>
+        <description>Индивидуальные занятия по китайскому языку для начинающих и продолжающих. Преподаватель подбирает материал под ваш уровень и цель. Удобное расписание, интерактивные задания и обратная связь. Стоимость указана за пакет из 4 занятий по 60 минут, а не за достижение полного языкового уровня. Темы каждого занятия определяет преподаватель по индивидуальному плану. Оставьте заявку на сайте, чтобы подобрать программу и расписание.</description>
+        <param name="Продолжительность" unit="час">4</param>
+        <param name="План" unit="Занятие 1" hours="1" order="1">Работа с материалами по индивидуальной программе китайского языка. Учебный материал и задания выбираются преподавателем по уровню и целям ученика.</param>
+        <param name="План" unit="Занятие 2" hours="1" order="2">Работа с материалами по индивидуальной программе китайского языка. Продолжение индивидуальной программы: работа с выбранным материалом и объяснения преподавателя.</param>
+        <param name="План" unit="Занятие 3" hours="1" order="3">Работа с материалами по индивидуальной программе китайского языка. Практика по индивидуальному плану и обратная связь по выполненным заданиям.</param>
+        <param name="План" unit="Занятие 4" hours="1" order="4">Работа с материалами по индивидуальной программе китайского языка. Продолжение работы по программе и обратная связь для дальнейшего обучения.</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Тип обучения">Курс</param>
+      </offer>
+      <offer id="zh-kids30-4" available="true">
+        <name>Китайский для детей: 4 онлайн-урока по 30 минут</name>
+        <url>https://larou-school.com/kitayskiy-yazyk/zanyatiya-dlya-detey/?utm_source=yandex&amp;utm_medium=organic&amp;utm_campaign=education_feed&amp;utm_content=zh-kids30-4</url>
+        <categoryId>20006</categoryId>
+        <set-ids>s-zh</set-ids>
+        <price>4400</price>
+        <currencyId>RUR</currencyId>
+        <description>Индивидуальные занятия по китайскому языку для детей. Короткие уроки с игровыми заданиями и интерактивными материалами. Преподаватель учитывает возраст, уровень и темп ребенка. Стоимость указана за пакет из 4 занятий по 30 минут, а не за достижение полного языкового уровня. Темы каждого занятия определяет преподаватель по индивидуальному плану. Оставьте заявку на сайте, чтобы подобрать программу и расписание.</description>
+        <param name="Продолжительность" unit="час">2</param>
+        <param name="План" unit="Занятие 1" hours="0.5" order="1">Индивидуальное занятие по китайскому языку в игровом формате с интерактивными материалами. Учебный материал и задания выбираются преподавателем по уровню и целям ученика.</param>
+        <param name="План" unit="Занятие 2" hours="0.5" order="2">Индивидуальное занятие по китайскому языку в игровом формате с интерактивными материалами. Продолжение индивидуальной программы: работа с выбранным материалом и объяснения преподавателя.</param>
+        <param name="План" unit="Занятие 3" hours="0.5" order="3">Индивидуальное занятие по китайскому языку в игровом формате с интерактивными материалами. Практика по индивидуальному плану и обратная связь по выполненным заданиям.</param>
+        <param name="План" unit="Занятие 4" hours="0.5" order="4">Индивидуальное занятие по китайскому языку в игровом формате с интерактивными материалами. Продолжение работы по программе и обратная связь для дальнейшего обучения.</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Тип обучения">Курс</param>
+      </offer>
+      <offer id="zh-job-4" available="true">
+        <name>Китайский для работы: 4 онлайн-урока по 60 минут</name>
+        <url>https://larou-school.com/kitayskiy-yazyk/obuchenie-dlya-raboty-i-karery/?utm_source=yandex&amp;utm_medium=organic&amp;utm_campaign=education_feed&amp;utm_content=zh-job-4</url>
+        <categoryId>20006</categoryId>
+        <set-ids>s-zh</set-ids>
+        <price>8000</price>
+        <currencyId>RUR</currencyId>
+        <description>Индивидуальные занятия по китайскому для общения с коллегами и партнерами. Программа под ваши рабочие задачи и текущий уровень, практика с преподавателем и гибкое расписание. Стоимость указана за пакет из 4 занятий по 60 минут, а не за достижение полного языкового уровня. Темы каждого занятия определяет преподаватель по индивидуальному плану. Оставьте заявку на сайте, чтобы подобрать программу и расписание.</description>
+        <param name="Продолжительность" unit="час">4</param>
+        <param name="План" unit="Занятие 1" hours="1" order="1">Индивидуальное занятие по китайскому языку с учетом рабочих задач ученика. Учебный материал и задания выбираются преподавателем по уровню и целям ученика.</param>
+        <param name="План" unit="Занятие 2" hours="1" order="2">Индивидуальное занятие по китайскому языку с учетом рабочих задач ученика. Продолжение индивидуальной программы: работа с выбранным материалом и объяснения преподавателя.</param>
+        <param name="План" unit="Занятие 3" hours="1" order="3">Индивидуальное занятие по китайскому языку с учетом рабочих задач ученика. Практика по индивидуальному плану и обратная связь по выполненным заданиям.</param>
+        <param name="План" unit="Занятие 4" hours="1" order="4">Индивидуальное занятие по китайскому языку с учетом рабочих задач ученика. Продолжение работы по программе и обратная связь для дальнейшего обучения.</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Тип обучения">Курс</param>
+      </offer>
+      <offer id="zh-move-4" available="true">
+        <name>Китайский для переезда: 4 онлайн-урока по 60 минут</name>
+        <url>https://larou-school.com/kitayskiy-yazyk/obuchenie-dlya-pereezda-zagranicu/?utm_source=yandex&amp;utm_medium=organic&amp;utm_campaign=education_feed&amp;utm_content=zh-move-4</url>
+        <categoryId>20006</categoryId>
+        <set-ids>s-zh</set-ids>
+        <price>8000</price>
+        <currencyId>RUR</currencyId>
+        <description>Индивидуальные занятия по китайскому для жизни за границей. Работа над языковыми навыками для повседневного общения и адаптации. Темп и программа подбираются под ваш уровень и задачи переезда. Стоимость указана за пакет из 4 занятий по 60 минут, а не за достижение полного языкового уровня. Темы каждого занятия определяет преподаватель по индивидуальному плану. Оставьте заявку на сайте, чтобы подобрать программу и расписание.</description>
+        <param name="Продолжительность" unit="час">4</param>
+        <param name="План" unit="Занятие 1" hours="1" order="1">Индивидуальное занятие по китайскому языку с учетом задач переезда и жизни за границей. Учебный материал и задания выбираются преподавателем по уровню и целям ученика.</param>
+        <param name="План" unit="Занятие 2" hours="1" order="2">Индивидуальное занятие по китайскому языку с учетом задач переезда и жизни за границей. Продолжение индивидуальной программы: работа с выбранным материалом и объяснения преподавателя.</param>
+        <param name="План" unit="Занятие 3" hours="1" order="3">Индивидуальное занятие по китайскому языку с учетом задач переезда и жизни за границей. Практика по индивидуальному плану и обратная связь по выполненным заданиям.</param>
+        <param name="План" unit="Занятие 4" hours="1" order="4">Индивидуальное занятие по китайскому языку с учетом задач переезда и жизни за границей. Продолжение работы по программе и обратная связь для дальнейшего обучения.</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Тип обучения">Курс</param>
+      </offer>
+      <offer id="zh-exam-4" available="true">
+        <name>Китайский: подготовка к экзаменам, 4 урока по 60 минут</name>
+        <url>https://larou-school.com/kitayskiy-yazyk/obuchenie-dlya-sdachi-ekzamenov/?utm_source=yandex&amp;utm_medium=organic&amp;utm_campaign=education_feed&amp;utm_content=zh-exam-4</url>
+        <categoryId>20006</categoryId>
+        <set-ids>s-zh</set-ids>
+        <price>8000</price>
+        <currencyId>RUR</currencyId>
+        <description>Индивидуальные занятия по китайскому для учебы и подготовки к выбранному экзамену. Преподаватель подбирает задания и программу с учетом текущего уровня, цели и срока подготовки. Стоимость указана за пакет из 4 занятий по 60 минут, а не за достижение полного языкового уровня. Темы каждого занятия определяет преподаватель по индивидуальному плану. Оставьте заявку на сайте, чтобы подобрать программу и расписание.</description>
+        <param name="Продолжительность" unit="час">4</param>
+        <param name="План" unit="Занятие 1" hours="1" order="1">Индивидуальное занятие по китайскому языку с учетом учебной цели и выбранного экзамена. Учебный материал и задания выбираются преподавателем по уровню и целям ученика.</param>
+        <param name="План" unit="Занятие 2" hours="1" order="2">Индивидуальное занятие по китайскому языку с учетом учебной цели и выбранного экзамена. Продолжение индивидуальной программы: работа с выбранным материалом и объяснения преподавателя.</param>
+        <param name="План" unit="Занятие 3" hours="1" order="3">Индивидуальное занятие по китайскому языку с учетом учебной цели и выбранного экзамена. Практика по индивидуальному плану и обратная связь по выполненным заданиям.</param>
+        <param name="План" unit="Занятие 4" hours="1" order="4">Индивидуальное занятие по китайскому языку с учетом учебной цели и выбранного экзамена. Продолжение работы по программе и обратная связь для дальнейшего обучения.</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Тип обучения">Курс</param>
+      </offer>
     </offers>
   </shop>
 </yml_catalog>
-
-
-
