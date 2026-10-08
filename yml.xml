@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<yml_catalog date="2026-09-30 00:16">
-  <!-- LaRou. Цены сверены со страницами на 30.09.2026. Тарифы с 05.10.2026 не применены. -->
+<yml_catalog date="2026-10-08 06:24">
+  <!-- LaRou. Цены сверены со страницами на 08.10.2026. -->
   <shop>
     <name>LaRou</name>
     <company>ИП Демина Анастасия Сергеевна</company>
@@ -11,11 +11,6 @@
     <currencies>
       <currency id="RUR" rate="1" />
     </currencies>
-    <categories>
-      <category id="20003">Французский язык</category>
-      <category id="20001">Английский язык</category>
-      <category id="20006">Китайский язык</category>
-    </categories>
     <sets>
       <set id="s-fr">
         <name>Французский язык онлайн</name>
@@ -36,7 +31,7 @@
         <url>https://larou-school.com/francuzskiy-yazyk/individualnye-zanyatiya/?utm_source=yandex&amp;utm_medium=organic&amp;utm_campaign=education_feed&amp;utm_content=ind-4</url>
         <categoryId>20003</categoryId>
         <set-ids>s-fr</set-ids>
-        <price>8000</price>
+        <price>8800</price>
         <currencyId>RUR</currencyId>
         <description>Индивидуальные занятия по французскому языку для начинающих и продолжающих. Преподаватель подбирает материал под ваш уровень и цель. Удобное расписание, интерактивные задания и обратная связь. Стоимость указана за пакет из 4 занятий по 60 минут, а не за достижение полного языкового уровня. Темы каждого занятия определяет преподаватель по индивидуальному плану. Оставьте заявку на сайте, чтобы подобрать программу и расписание.</description>
         <param name="Продолжительность" unit="час">4</param>
@@ -52,7 +47,7 @@
         <url>https://larou-school.com/francuzskiy-yazyk/zanyatiya-dlya-detey/?utm_source=yandex&amp;utm_medium=organic&amp;utm_campaign=education_feed&amp;utm_content=kids30-4</url>
         <categoryId>20003</categoryId>
         <set-ids>s-fr</set-ids>
-        <price>4400</price>
+        <price>4800</price>
         <currencyId>RUR</currencyId>
         <description>Индивидуальные занятия по французскому языку для детей. Короткие уроки с игровыми заданиями и интерактивными материалами. Преподаватель учитывает возраст, уровень и темп ребенка. Стоимость указана за пакет из 4 занятий по 30 минут, а не за достижение полного языкового уровня. Темы каждого занятия определяет преподаватель по индивидуальному плану. Оставьте заявку на сайте, чтобы подобрать программу и расписание.</description>
         <param name="Продолжительность" unit="час">2</param>
@@ -68,7 +63,7 @@
         <url>https://larou-school.com/francuzskiy-yazyk/obuchenie-dlya-raboty-i-karery/?utm_source=yandex&amp;utm_medium=organic&amp;utm_campaign=education_feed&amp;utm_content=job-4</url>
         <categoryId>20003</categoryId>
         <set-ids>s-fr</set-ids>
-        <price>8000</price>
+        <price>8800</price>
         <currencyId>RUR</currencyId>
         <description>Индивидуальные занятия по французскому для общения с коллегами и партнерами. Программа под ваши рабочие задачи и текущий уровень, практика с преподавателем и гибкое расписание. Стоимость указана за пакет из 4 занятий по 60 минут, а не за достижение полного языкового уровня. Темы каждого занятия определяет преподаватель по индивидуальному плану. Оставьте заявку на сайте, чтобы подобрать программу и расписание.</description>
         <param name="Продолжительность" unit="час">4</param>
@@ -84,7 +79,7 @@
         <url>https://larou-school.com/francuzskiy-yazyk/obuchenie-dlya-pereezda-zagranicu/?utm_source=yandex&amp;utm_medium=organic&amp;utm_campaign=education_feed&amp;utm_content=move-4</url>
         <categoryId>20003</categoryId>
         <set-ids>s-fr</set-ids>
-        <price>8000</price>
+        <price>8800</price>
         <currencyId>RUR</currencyId>
         <description>Индивидуальные занятия по французскому для жизни за границей. Работа над языковыми навыками для повседневного общения и адаптации. Темп и программа подбираются под ваш уровень и задачи переезда. Стоимость указана за пакет из 4 занятий по 60 минут, а не за достижение полного языкового уровня. Темы каждого занятия определяет преподаватель по индивидуальному плану. Оставьте заявку на сайте, чтобы подобрать программу и расписание.</description>
         <param name="Продолжительность" unit="час">4</param>
@@ -100,7 +95,7 @@
         <url>https://larou-school.com/francuzskiy-yazyk/obuchenie-dlya-sdachi-ekzamenov/?utm_source=yandex&amp;utm_medium=organic&amp;utm_campaign=education_feed&amp;utm_content=exam-4</url>
         <categoryId>20003</categoryId>
         <set-ids>s-fr</set-ids>
-        <price>8000</price>
+        <price>8800</price>
         <currencyId>RUR</currencyId>
         <description>Индивидуальные занятия по французскому для учебы и подготовки к выбранному экзамену. Преподаватель подбирает задания и программу с учетом текущего уровня, цели и срока подготовки. Стоимость указана за пакет из 4 занятий по 60 минут, а не за достижение полного языкового уровня. Темы каждого занятия определяет преподаватель по индивидуальному плану. Оставьте заявку на сайте, чтобы подобрать программу и расписание.</description>
         <param name="Продолжительность" unit="час">4</param>
@@ -116,7 +111,7 @@
         <url>https://larou-school.com/angliyskiy-yazyk/individualnye-zanyatiya/?utm_source=yandex&amp;utm_medium=organic&amp;utm_campaign=education_feed&amp;utm_content=en-ind-4</url>
         <categoryId>20001</categoryId>
         <set-ids>s-en</set-ids>
-        <price>8000</price>
+        <price>8800</price>
         <currencyId>RUR</currencyId>
         <description>Индивидуальные занятия по английскому языку для начинающих и продолжающих. Преподаватель подбирает материал под ваш уровень и цель. Удобное расписание, интерактивные задания и обратная связь. Стоимость указана за пакет из 4 занятий по 60 минут, а не за достижение полного языкового уровня. Темы каждого занятия определяет преподаватель по индивидуальному плану. Оставьте заявку на сайте, чтобы подобрать программу и расписание.</description>
         <param name="Продолжительность" unit="час">4</param>
@@ -132,7 +127,7 @@
         <url>https://larou-school.com/angliyskiy-yazyk/zanyatiya-dlya-detey/?utm_source=yandex&amp;utm_medium=organic&amp;utm_campaign=education_feed&amp;utm_content=en-kids30-4</url>
         <categoryId>20001</categoryId>
         <set-ids>s-en</set-ids>
-        <price>4400</price>
+        <price>4800</price>
         <currencyId>RUR</currencyId>
         <description>Индивидуальные занятия по английскому языку для детей. Короткие уроки с игровыми заданиями и интерактивными материалами. Преподаватель учитывает возраст, уровень и темп ребенка. Стоимость указана за пакет из 4 занятий по 30 минут, а не за достижение полного языкового уровня. Темы каждого занятия определяет преподаватель по индивидуальному плану. Оставьте заявку на сайте, чтобы подобрать программу и расписание.</description>
         <param name="Продолжительность" unit="час">2</param>
@@ -148,7 +143,7 @@
         <url>https://larou-school.com/angliyskiy-yazyk/obuchenie-dlya-raboty-i-karery/?utm_source=yandex&amp;utm_medium=organic&amp;utm_campaign=education_feed&amp;utm_content=en-job-4</url>
         <categoryId>20001</categoryId>
         <set-ids>s-en</set-ids>
-        <price>8000</price>
+        <price>8800</price>
         <currencyId>RUR</currencyId>
         <description>Индивидуальные занятия по английскому для общения с коллегами и партнерами. Программа под ваши рабочие задачи и текущий уровень, практика с преподавателем и гибкое расписание. Стоимость указана за пакет из 4 занятий по 60 минут, а не за достижение полного языкового уровня. Темы каждого занятия определяет преподаватель по индивидуальному плану. Оставьте заявку на сайте, чтобы подобрать программу и расписание.</description>
         <param name="Продолжительность" unit="час">4</param>
@@ -164,7 +159,7 @@
         <url>https://larou-school.com/angliyskiy-yazyk/obuchenie-dlya-pereezda-zagranicu/?utm_source=yandex&amp;utm_medium=organic&amp;utm_campaign=education_feed&amp;utm_content=en-move-4</url>
         <categoryId>20001</categoryId>
         <set-ids>s-en</set-ids>
-        <price>8000</price>
+        <price>8800</price>
         <currencyId>RUR</currencyId>
         <description>Индивидуальные занятия по английскому для жизни за границей. Работа над языковыми навыками для повседневного общения и адаптации. Темп и программа подбираются под ваш уровень и задачи переезда. Стоимость указана за пакет из 4 занятий по 60 минут, а не за достижение полного языкового уровня. Темы каждого занятия определяет преподаватель по индивидуальному плану. Оставьте заявку на сайте, чтобы подобрать программу и расписание.</description>
         <param name="Продолжительность" unit="час">4</param>
@@ -180,7 +175,7 @@
         <url>https://larou-school.com/angliyskiy-yazyk/obuchenie-dlya-sdachi-ekzamenov/?utm_source=yandex&amp;utm_medium=organic&amp;utm_campaign=education_feed&amp;utm_content=en-exam-4</url>
         <categoryId>20001</categoryId>
         <set-ids>s-en</set-ids>
-        <price>8000</price>
+        <price>8800</price>
         <currencyId>RUR</currencyId>
         <description>Индивидуальные занятия по английскому для учебы и подготовки к выбранному экзамену. Преподаватель подбирает задания и программу с учетом текущего уровня, цели и срока подготовки. Стоимость указана за пакет из 4 занятий по 60 минут, а не за достижение полного языкового уровня. Темы каждого занятия определяет преподаватель по индивидуальному плану. Оставьте заявку на сайте, чтобы подобрать программу и расписание.</description>
         <param name="Продолжительность" unit="час">4</param>
@@ -196,7 +191,7 @@
         <url>https://larou-school.com/kitayskiy-yazyk/individualnye-zanyatiya/?utm_source=yandex&amp;utm_medium=organic&amp;utm_campaign=education_feed&amp;utm_content=zh-ind-4</url>
         <categoryId>20006</categoryId>
         <set-ids>s-zh</set-ids>
-        <price>8000</price>
+        <price>8800</price>
         <currencyId>RUR</currencyId>
         <description>Индивидуальные занятия по китайскому языку для начинающих и продолжающих. Преподаватель подбирает материал под ваш уровень и цель. Удобное расписание, интерактивные задания и обратная связь. Стоимость указана за пакет из 4 занятий по 60 минут, а не за достижение полного языкового уровня. Темы каждого занятия определяет преподаватель по индивидуальному плану. Оставьте заявку на сайте, чтобы подобрать программу и расписание.</description>
         <param name="Продолжительность" unit="час">4</param>
@@ -212,7 +207,7 @@
         <url>https://larou-school.com/kitayskiy-yazyk/zanyatiya-dlya-detey/?utm_source=yandex&amp;utm_medium=organic&amp;utm_campaign=education_feed&amp;utm_content=zh-kids30-4</url>
         <categoryId>20006</categoryId>
         <set-ids>s-zh</set-ids>
-        <price>4400</price>
+        <price>4800</price>
         <currencyId>RUR</currencyId>
         <description>Индивидуальные занятия по китайскому языку для детей. Короткие уроки с игровыми заданиями и интерактивными материалами. Преподаватель учитывает возраст, уровень и темп ребенка. Стоимость указана за пакет из 4 занятий по 30 минут, а не за достижение полного языкового уровня. Темы каждого занятия определяет преподаватель по индивидуальному плану. Оставьте заявку на сайте, чтобы подобрать программу и расписание.</description>
         <param name="Продолжительность" unit="час">2</param>
@@ -228,7 +223,7 @@
         <url>https://larou-school.com/kitayskiy-yazyk/obuchenie-dlya-raboty-i-karery/?utm_source=yandex&amp;utm_medium=organic&amp;utm_campaign=education_feed&amp;utm_content=zh-job-4</url>
         <categoryId>20006</categoryId>
         <set-ids>s-zh</set-ids>
-        <price>8000</price>
+        <price>8800</price>
         <currencyId>RUR</currencyId>
         <description>Индивидуальные занятия по китайскому для общения с коллегами и партнерами. Программа под ваши рабочие задачи и текущий уровень, практика с преподавателем и гибкое расписание. Стоимость указана за пакет из 4 занятий по 60 минут, а не за достижение полного языкового уровня. Темы каждого занятия определяет преподаватель по индивидуальному плану. Оставьте заявку на сайте, чтобы подобрать программу и расписание.</description>
         <param name="Продолжительность" unit="час">4</param>
@@ -244,7 +239,7 @@
         <url>https://larou-school.com/kitayskiy-yazyk/obuchenie-dlya-pereezda-zagranicu/?utm_source=yandex&amp;utm_medium=organic&amp;utm_campaign=education_feed&amp;utm_content=zh-move-4</url>
         <categoryId>20006</categoryId>
         <set-ids>s-zh</set-ids>
-        <price>8000</price>
+        <price>8800</price>
         <currencyId>RUR</currencyId>
         <description>Индивидуальные занятия по китайскому для жизни за границей. Работа над языковыми навыками для повседневного общения и адаптации. Темп и программа подбираются под ваш уровень и задачи переезда. Стоимость указана за пакет из 4 занятий по 60 минут, а не за достижение полного языкового уровня. Темы каждого занятия определяет преподаватель по индивидуальному плану. Оставьте заявку на сайте, чтобы подобрать программу и расписание.</description>
         <param name="Продолжительность" unit="час">4</param>
@@ -260,7 +255,7 @@
         <url>https://larou-school.com/kitayskiy-yazyk/obuchenie-dlya-sdachi-ekzamenov/?utm_source=yandex&amp;utm_medium=organic&amp;utm_campaign=education_feed&amp;utm_content=zh-exam-4</url>
         <categoryId>20006</categoryId>
         <set-ids>s-zh</set-ids>
-        <price>8000</price>
+        <price>8800</price>
         <currencyId>RUR</currencyId>
         <description>Индивидуальные занятия по китайскому для учебы и подготовки к выбранному экзамену. Преподаватель подбирает задания и программу с учетом текущего уровня, цели и срока подготовки. Стоимость указана за пакет из 4 занятий по 60 минут, а не за достижение полного языкового уровня. Темы каждого занятия определяет преподаватель по индивидуальному плану. Оставьте заявку на сайте, чтобы подобрать программу и расписание.</description>
         <param name="Продолжительность" unit="час">4</param>
